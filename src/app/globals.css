@@ -1,107 +1,155 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+[data-theme="dark"] {
+  background-color: #1f2028;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  color: #ffffff;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+[data-theme="light"] {
+  background-color: #ffffff;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  color: #1f2028;
 }
 
-a {
-  color: inherit;
+ul {
+  list-style: none;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* THEME BUTTON */
+
+.circle-button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.circle-button:hover {
+  cursor: pointer;
+}
+
+[data-theme="dark"] .circle-button {
+  border: 2px solid #4b4c53;
+}
+[data-theme="light"] .circle-button {
+  border: 2px solid #535661;
+}
+
+@media (min-width: 600px) {
+  [data-theme="dark"] .circle-button:hover {
+    border: 2px solid #ffffff;
   }
+  [data-theme="light"] .circle-button:hover {
+    border: 2px solid #000000;
+  }
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* LINKS */
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  text-align: "center";
+  font-size: 16px;
+  padding-left: 0px;
+}
+
+.navbar li {
+  padding: 8px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+/* LINKS MOBILE */
+
+@media (max-width: 600px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar ul.show {
+    display: block;
+  }
+}
+
+/* LOGO */
+
+.logo-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: nowrap;
+}
+
+.logo {
+  font-size: 24px;
+  white-space: nowrap;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+[data-theme="dark"] .logo {
+  color: #ffffff;
+}
+
+[data-theme="light"] .logo {
+  color: #000000;
+}
+
+/* UNDERLINE EFFECT */
+
+.underline-grow {
+  position: relative;
+  text-decoration: none;
+  padding: 5px 0px;
+}
+
+.underline-grow::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  transition: width 0.3s ease;
+}
+
+@media (min-width: 600px) {
+  .underline-grow:hover::before {
+    width: 100%;
+  }
+}
+
+[data-theme="dark"] .underline-grow::before {
+  background-color: #ffffff;
+}
+
+[data-theme="light"] .underline-grow::before {
+  background-color: #000000;
+}
+
+/* UTILITY CLASSES */
+
+.f-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

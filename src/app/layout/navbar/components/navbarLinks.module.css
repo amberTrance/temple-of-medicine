@@ -1,0 +1,58 @@
+.button {
+  margin-right: 16px;
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+}
+
+.fadeInSvg {
+  animation: fadeIn 1s ease; /* Customize the duration and easing as desired */
+}
+
+@media (max-width: 600px) {
+  .button {
+    display: block;
+  }
+}
+
+/* NAVBAR LINKS */
+
+[data-theme="dark"] .navbarLinks {
+  color: #a9adc1;
+}
+[data-theme="light"] .navbarLinks {
+  color: #535661;
+}
+
+@media (min-width: 600px) {
+  [data-theme="dark"] .navbarLinks:hover {
+    color: #ffffff;
+  }
+  [data-theme="light"] .navbarLinks:hover {
+    color: #000000;
+  }
+}
+
+@media (max-width: 600px) {
+  .ulContainer {
+    position: absolute;
+    display: block;
+    inset: calc(92px + 2.25rem) 0px 0px;
+    margin: 0;
+  }
+
+  [data-theme="dark"] .li {
+    width: 100%;
+    border-top: #a9adc1 solid 1px;
+    padding: 36px 26px;
+  }
+}
