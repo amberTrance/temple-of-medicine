@@ -1,0 +1,18 @@
+.button {
+    padding: 1.5rem 2.5rem;
+    border-radius: 40px;
+    font-size: 18px;
+    display: block;
+    background-color: transparent;
+    background: none;
+    border: #C8C8C8 1px solid;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+
+[data-theme="light"] .button {
+  color: black
+}

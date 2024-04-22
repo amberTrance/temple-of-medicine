@@ -6,7 +6,7 @@ import "./globals.css";
 import { Providers } from "@/app/components/providers";
 
 const montserrat = Montserrat({
-  weight: "500",
+  weight: "300",
   subsets: ["latin"],
   display: "swap",
 });
@@ -24,13 +24,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Providers>
-        <body className={`dark ${montserrat.className}`}>
+      <body className={`dark ${montserrat.className}`}>
+        <Providers>
           <Navbar />
 
-          {children}
-        </body>
-      </Providers>
+          <main>{children}</main>
+        </Providers>
+      </body>
     </html>
   );
 }

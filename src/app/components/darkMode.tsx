@@ -12,17 +12,13 @@ const DarkModeButton = () => {
     setMounted(true);
   }, []);
 
-  if (!mounted) {
-    return null;
-  }
-
   return (
     <button
       aria-label="dark/light theme switch"
       className="circle-button"
       onClick={(e) => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
-      {theme === "dark" ? <FaMoon size={18} /> : <GoSun size={25} />}
+      {mounted ?  theme === "dark" ? <FaMoon size={18} /> : <GoSun size={25} /> : null}
     </button>
   );
 };
