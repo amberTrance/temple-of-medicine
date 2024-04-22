@@ -3,10 +3,26 @@ body {
   padding: 0;
 }
 
+/* MAIN */
+
 main {
-  padding: 6rem;
   min-height: 100vh;
   line-height: 1.25;
+}
+@media (min-width: 300px) {
+  main {
+    padding: 1.5rem;
+  }
+}
+@media (min-width: 800px) {
+  main {
+    padding: 6rem;
+  }
+}
+@media (min-width: 1025px) {
+  main {
+    padding: 6rem 12rem;
+  }
 }
 
 [data-theme="dark"] {
@@ -34,18 +50,15 @@ ul {
   border-radius: 50%;
   background-color: transparent;
 }
-
 .circle-button:hover {
   cursor: pointer;
 }
-
 [data-theme="dark"] .circle-button {
   border: 2px solid #4b4c53;
 }
 [data-theme="light"] .circle-button {
   border: 2px solid #535661;
 }
-
 @media (min-width: 600px) {
   [data-theme="dark"] .circle-button:hover {
     border: 2px solid #ffffff;
@@ -65,6 +78,12 @@ ul {
   padding: 48px;
   width: 100%;
   box-sizing: border-box;
+  gap: 10px
+}
+@media (max-width: 600px) {
+  .navbar {
+    padding: 20px;
+  }
 }
 
 /* LINKS */
@@ -76,11 +95,9 @@ ul {
   font-size: 16px;
   padding-left: 0px;
 }
-
 .navbar li {
   padding: 8px 20px;
 }
-
 .navbar a {
   text-decoration: none;
 }
@@ -104,18 +121,20 @@ ul {
   flex-wrap: nowrap;
   margin-right: nowrap;
 }
-
 .logo {
   font-size: 24px;
   white-space: nowrap;
   font-weight: 600;
   margin-right: 8px;
 }
-
+@media (max-width: 450px) {
+  .logo {
+    font-size: 18px;
+  }
+}
 [data-theme="dark"] .logo {
   color: #ffffff;
 }
-
 [data-theme="light"] .logo {
   color: #000000;
 }
@@ -127,7 +146,6 @@ ul {
   text-decoration: none;
   padding: 5px 0px;
 }
-
 .underline-grow::before {
   content: "";
   position: absolute;
@@ -137,20 +155,36 @@ ul {
   height: 1.7px;
   transition: width 0.3s ease;
 }
-
 @media (min-width: 600px) {
   .underline-grow:hover::before {
     width: 100%;
   }
 }
-
 [data-theme="dark"] .underline-grow::before {
   background-color: #ffffff;
 }
-
 [data-theme="light"] .underline-grow::before {
   background-color: #000000;
 }
+
+/* PARAGRAPHS */
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+[data-theme="dark"] p {
+  color: #C8C8C8;
+}
+[data-theme="light"] p {
+  color: #535661;
+}
+@media (min-width: 1025px) {
+  p {
+    max-width: 550px;
+  }
+}
+
 
 /* UTILITY CLASSES */
 

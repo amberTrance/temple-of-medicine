@@ -6,7 +6,7 @@ import "./globals.css";
 import { Providers } from "@/app/components/providers";
 
 const montserrat = Montserrat({
-  weight: "300",
+  weight: "400",
   subsets: ["latin"],
   display: "swap",
 });

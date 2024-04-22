@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo-container underline-grow">
-        <Link className="logo " href="/">
+        <Link className="logo" href="/">
           Temple of Medicine
         </Link>
 
