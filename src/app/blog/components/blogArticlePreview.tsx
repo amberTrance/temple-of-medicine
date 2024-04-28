@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
-import { prefix } from "../../../../prefix";
+import { prefix } from "../../../../constants";
 
 type BlogArticlePreviewProps = {
     alt: string;
