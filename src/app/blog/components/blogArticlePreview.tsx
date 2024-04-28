@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link";
+import { prefix } from "../../../../prefix";
 
 type BlogArticlePreviewProps = {
     alt: string;
@@ -11,7 +12,7 @@ type BlogArticlePreviewProps = {
 
 export const BlogArticlePreview = ({ alt, date, href, src, title }: BlogArticlePreviewProps) => {
   return (
-    <div style={{width: "30%", minWidth: "250px"}}>
+    <div style={{ width: "30%", minWidth: "250px" }}>
       <Link href={href} style={{ textDecoration: "none", color: "inherit" }}>
         <div
           style={{
@@ -22,7 +23,7 @@ export const BlogArticlePreview = ({ alt, date, href, src, title }: BlogArticleP
         >
           <Image
             layout="fill"
-            src={`/${src}.jpg`}
+            src={`${prefix}/${src}.jpg`}
             alt={alt}
             objectFit="cover"
             objectPosition="center"

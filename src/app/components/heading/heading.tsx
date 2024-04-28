@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FaArrowLeft } from "react-icons/fa6";
+import { prefix } from "../../../../prefix";
 
 type HeadingProps = {
     alt: string;
@@ -20,14 +21,15 @@ export const Heading = ({ alt, date, heading, src }: HeadingProps) => {
     <>
       <button
         className="f-row"
-        style={{ 
-          gap: "8px",background: "none",
+        style={{
+          gap: "8px",
+          background: "none",
           color: "inherit",
           border: "none",
           padding: 0,
           font: "inherit;",
           cursor: "pointer",
-          outline: "inherit"
+          outline: "inherit",
         }}
         onClick={() => router.back()}
       >
@@ -41,7 +43,7 @@ export const Heading = ({ alt, date, heading, src }: HeadingProps) => {
       <p style={{ fontWeight: "bold" }}>{date}</p>
 
       <Image
-        src={`/${src}.jpg`}
+        src={`${prefix}/${src}.jpg`}
         alt={alt}
         width="780"
         height="500"
@@ -49,5 +51,5 @@ export const Heading = ({ alt, date, heading, src }: HeadingProps) => {
         style={{ margin: "20px 0px", borderRadius: "5px" }}
       />
     </>
-  )
+  );
 };
