@@ -11,7 +11,6 @@ type BlogArticlePreviewProps = {
 }
 
 export const BlogArticlePreview = ({ alt, date, href, src, title }: BlogArticlePreviewProps) => {
-  console.log(process.env.NODE_ENV)
   return (
     <div style={{ width: "30%", minWidth: "250px" }}>
       <Link href={href} style={{ textDecoration: "none", color: "inherit" }}>
