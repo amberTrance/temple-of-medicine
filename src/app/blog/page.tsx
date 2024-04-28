@@ -1,5 +1,4 @@
 import { BlogArticlePreview } from "@/app/blog/components/blogArticlePreview";
-import Link from "next/link";
 
 export default function Blog() { 
     return (
