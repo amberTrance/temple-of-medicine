@@ -8,9 +8,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo-container underline-grow">
-        <Link className="logo" href="/">
+        {/** Quick fix for github specific bug */}
+        <a
+          className="logo"
+          href="https://ambertrance.github.io/temple-of-medicine"
+        >
           Temple of Medicine
-        </Link>
+        </a>
 
         <FaLeaf size={20} color="green" />
       </div>
