@@ -1,7 +1,4 @@
 import { Heading } from "@/app/components/heading/heading";
-import Image from "next/image"
-
-import Link from "next/link";
 
 export default function BornIntoWeakness() {
   return (

@@ -19,7 +19,7 @@ main {
     padding: 6rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1600px) {
   main {
     padding: 6rem 12rem;
   }
@@ -184,7 +184,6 @@ p {
     max-width: 550px;
   }
 }
-
 
 /* UTILITY CLASSES */
 
