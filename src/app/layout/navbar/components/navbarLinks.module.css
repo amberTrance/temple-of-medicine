@@ -25,7 +25,9 @@
 }
 
 /* NAVBAR LINKS */
-
+.navbarLinks {
+    font-weight: 900;
+}
 [data-theme="dark"] .navbarLinks {
   color: #a9adc1;
 }
