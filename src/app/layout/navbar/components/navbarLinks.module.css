@@ -56,5 +56,13 @@
     width: 100%;
     border-top: #a9adc1 solid 1px;
     padding: 36px 26px;
+    background-color: #1f2028;
+  }
+
+  [data-theme="light"] .li {
+    width: 100%;
+    border-top: #a9adc1 solid 1px;
+    padding: 36px 26px;
+    background-color: white;
   }
 }
