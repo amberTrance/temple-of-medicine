@@ -1,5 +1,5 @@
-.imageWrapper {
-  position: relative;
-  width: calc(33.33% - 10px); /* Adjust as needed */
-  margin-bottom: 20px; /* Adjust as needed */
+.paragraphWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

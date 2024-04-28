@@ -1,4 +1,6 @@
 import { Heading } from "@/app/components/heading/heading";
+import styles from "../page.module.css";
+
 
 export default function BornIntoWeakness() {
   return (
@@ -10,13 +12,7 @@ export default function BornIntoWeakness() {
         alt="Bird escaping a cage"
       />
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <div className={styles.paragraphWrapper}>
         <p>
           It’s difficult to escape their invisible chains. We move in circles
           and how could we do anything else but that? We were trained to be
