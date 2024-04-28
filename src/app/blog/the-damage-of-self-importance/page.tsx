@@ -1,14 +1,14 @@
 import { Heading } from "@/app/components/heading/heading";
 import styles from "../page.module.css";
 
-export default function TheDamangeOfSelfImportance() {
+export default function TheDamageOfSelfImportance() {
   return (
     <>
       <Heading
         date="28th of April, 2024"
         heading="The Damage of Self-Importance"
         src="arrogance"
-        alt="Bird escaping a cage"
+        alt="Artist holding a cup looking smug"
       />
 
       <div className={styles.paragraphWrapper}>
