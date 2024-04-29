@@ -9,9 +9,9 @@ export default function Home() {
         <h1>Helping people find meaning by interpreting their dreams.</h1>
 
         <div className={styles.buttons}>
-          <Button>Read the blog</Button>
+          <Button href="/blog">Read the blog</Button>
 
-          <ButtonHollow>Contact me</ButtonHollow>
+          <ButtonHollow href="mailto:mind.edifice@gmail.com">Contact me</ButtonHollow>
         </div>
       </section>
 
