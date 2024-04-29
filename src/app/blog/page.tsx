@@ -10,6 +10,7 @@ export default function Blog() {
           <BlogArticlePreview
             alt="Bird escaping a cage"
             date="22nd of April, 2024"
+            hover="yellow"
             href="/blog/born-into-weakness"
             src="bird-escaping"
             title="Born into Weakness"
@@ -18,6 +19,7 @@ export default function Blog() {
           <BlogArticlePreview
             alt="Artist holding a cup looking smug"
             date="28th of April, 2024"
+            hover="red"
             href="/blog/the-damage-of-self-importance"
             title="The Damage of Self-Importance"
             src="arrogance"

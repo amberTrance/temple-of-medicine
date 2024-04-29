@@ -1,18 +1,7 @@
 .imageWrapper {
+  position:relative;
+  width: 100%;
   position: relative;
-  width: calc(33.33% - 10px); /* Adjust as needed */
-  margin-bottom: 20px; /* Adjust as needed */
-  height: 500px;
+  aspect-ratio: 3/4;
 }
 
-@media screen and (max-width: 768px) {
-  .imageWrapper {
-    width: calc(50% - 10px); /* Adjust as needed */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .imageWrapper {
-    width: 100%;
-  }
-}

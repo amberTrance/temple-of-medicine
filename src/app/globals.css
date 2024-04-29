@@ -202,3 +202,24 @@ p {
   flex-direction: row;
   align-items: center;
 }
+
+/* COLORS */
+
+.yellow {
+  border-radius: 12px;
+  margin: -7px;
+  padding: 5px;
+}
+[data-theme="dark"] .yellow {
+  border: #ffd644 2px solid;
+}
+[data-theme="light"] .yellow {
+  border: #1f2028 2px solid;
+}
+
+.red {
+  margin: -7px;
+  padding: 5px;
+  border: #ff4545 2px solid;
+  border-radius: 12px;
+}
