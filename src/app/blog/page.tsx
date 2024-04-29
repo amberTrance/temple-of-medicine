@@ -12,7 +12,7 @@ export default function Blog() {
             date="22nd of April, 2024"
             href="/blog/born-into-weakness"
             src="bird-escaping"
-            title="Born into weakness"
+            title="Born into Weakness"
           />
 
           <BlogArticlePreview

@@ -1,0 +1,30 @@
+.textContainer {
+    width: 45%;
+    margin-right: 50px;
+}
+
+@media (max-width: 850px) {
+ .textContainer {
+    width: 100%
+  }
+}
+
+.image {
+    max-width: 500px;
+    min-width: 300px;
+    width: 45%;
+    margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+ .image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.paragraphImageContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
