@@ -4,6 +4,7 @@ import { FaArrowDown } from "react-icons/fa6";
 import { prefix } from "../../../constants";
 
 import styles from "./about.module.css"
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -36,7 +37,12 @@ export default function About() {
             <h2 id="about-me">I like many things</h2>
 
             <p>
-              Growing up, I <span>loved drawing</span> and I attended an arts
+              I worked as a <span>web developer</span> until recently, skill that allowed me to build this app. Otherwise I love{" "}
+              <span>gardening, art, bird watching</span>.
+            </p>
+
+            <p>
+              Growing up, I <span>enjoyed drawing</span> and I attended an arts
               school. Painting was my favorite subject.
             </p>
 
@@ -54,9 +60,12 @@ export default function About() {
             </p>
 
             <p>
-              I then joined a spiritual sect called <span>AGEAC</span>. I was
-              part of this group for two years. I was so disappointed with it in
-              the end that I became an atheist for many years.
+              I then joined a spiritual sect called{" "}
+              <span>
+                <Link href="https://ageac.org/en/">AGEAC</Link>
+              </span>
+              . I was part of this group for two years. It was so disappointing
+              that in the end I became an atheist for a long time after.
             </p>
 
             <p>
@@ -89,7 +98,7 @@ export default function About() {
           </p>
 
           <p>
-            And I wasn't the only one, my friends and colleagues were all
+            I wasn't the only one though, my friends and colleagues were all
             plagued with various mental disorders.
           </p>
 
@@ -99,7 +108,7 @@ export default function About() {
           </p>
 
           <p>
-            And then I found <span>Jordan Peterson</span>. I was blown away by
+            Then I found <span>Jordan Peterson</span>. I was blown away by
             his ideas about authenticity. However, his advice didn't help me
             either.
           </p>
@@ -108,8 +117,8 @@ export default function About() {
           <h2>Carl Jung</h2>
 
           <p>
-            Then I begun reading <span>Carl Jung</span>, one of Peterson's
-            sources of inspiration. Here is where my life begun truly changing.
+            This is when I begun reading <span>Carl Jung</span>, one of Peterson's
+            sources of inspiration. My life begun truly changing after.
           </p>
 
           <p>
@@ -134,9 +143,9 @@ export default function About() {
           </p>
 
           <p>
-            After interpreting dreams for people close to me and receiving their
+            After deciphering dreams for people close to me and receiving their
             positive feedback, I have made up my mind to put this skill out
-            there for others to use.
+            there and make a living by doing what matters to me.
           </p>
         </div>
       </section>
