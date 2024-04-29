@@ -34,17 +34,31 @@ export default function About() {
       >
         <div className={styles.paragraphImageContainer}>
           <div className={styles.textContainer}>
-            <h2 id="about-me">I like many things</h2>
+            <h2 id="about-me">From Art</h2>
 
             <p>
-              I worked as a <span>web developer</span> until recently, skill that allowed me to build this app. Otherwise I love{" "}
-              <span>gardening, art, bird watching</span>.
+              I was born on a beautiful{" "}
+              <span>Sunday in the Spring of 1993</span>. Since I was little I
+              enjoyed drawing and my first memory about it is from the age of
+              five.
             </p>
 
             <p>
-              Growing up, I <span>enjoyed drawing</span> and I attended an arts
-              school. Painting was my favorite subject.
+              I remember laying down on the table this T-shirt with a{" "}
+              <span>Tom and Jerry</span> print and drawing after it. When I
+              finished, I went to the other room and showed it to mom. She{" "}
+              <span>did not believe I drew it myself</span>. She thought I laid
+              the paper over an image and merely copied it. I had to show her the T-shirt for her to believe me, but then she was very joyful.
             </p>
+
+            <p>
+              In sixth grade I started attending <span>arts school</span>. Here
+              in my hometown we had a school with a focus on art, where two days
+              of the week were dedicated entirely to painting, drawing or
+              sculpting. What a blessing to skip those physics classes.
+            </p>
+
+            <h2>To the Meaning of Life</h2>
 
             <p>
               As a teenager, I grew more interested in
@@ -87,7 +101,7 @@ export default function About() {
         </div>
 
         <div>
-          <h2>Psychology</h2>
+          <h2>And Psychology</h2>
 
           <p>
             By the end of the last year of my studies, I was{" "}
@@ -108,21 +122,21 @@ export default function About() {
           </p>
 
           <p>
-            Then I found <span>Jordan Peterson</span>. I was blown away by
-            his ideas about authenticity. However, his advice didn't help me
-            either.
+            Then I found <span>Jordan Peterson</span>. I was blown away by his
+            ideas about authenticity. However, his advice didn't help me either.
           </p>
           <br />
 
-          <h2>Carl Jung</h2>
+          <h2>To the Unconscious</h2>
 
           <p>
-            This is when I begun reading <span>Carl Jung</span>, one of Peterson's
-            sources of inspiration. My life begun truly changing after.
+            This is when I begun reading <span>Carl Jung</span>, one of
+            Peterson's sources of inspiration. My life started to truly change
+            after.
           </p>
 
           <p>
-            It's been <span>six years</span> since I started reading Jung's
+            It's been <span>six years</span> since I am reading Jung's
             works and it never stopped being relevant to me, or ceased to help
             me.
           </p>
