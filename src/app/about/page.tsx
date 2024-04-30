@@ -28,9 +28,7 @@ export default function About() {
       </a>
 
       <section
-        style={{
-          marginTop: "400px",
-        }}
+        className={styles.section}
       >
         <div className={styles.paragraphImageContainer}>
           <div className={styles.textContainer}>

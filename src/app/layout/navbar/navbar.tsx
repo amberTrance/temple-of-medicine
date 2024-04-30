@@ -1,5 +1,5 @@
 // import Link from "next/link";
-import { FaLeaf } from "react-icons/fa";
+import Image from "next/image"
 
 import DarkModeButton from "@/app/components/darkMode";
 import { NavbarLinks } from "@/app/layout/navbar/components/navbarLinks";
@@ -17,8 +17,8 @@ const Navbar = () => {
           Temple of Medicine
         </a>
 
-        <FaLeaf size={20} color="green" />
-      </div>
+        <Image src="/leaf.png" width={25} height={25} alt="temple"/>
+        </div>
 
       <div className="f-row">
         <NavbarLinks />

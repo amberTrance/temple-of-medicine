@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import Head from "next/head";
 
 import Navbar from "@/app/layout/navbar/navbar";
 import "./globals.css";
@@ -15,7 +16,10 @@ export const metadata: Metadata = {
   title: "Temple of Medicine",
   description:
     "A blog page written with the purpose of sharing insight into one's own mind through the lens of depth psychology. The content varies from dream analysis, philosophical thoughts on societal problems and much more. You can also get in contact with me for dream analysis.",
-};
+  icons: {
+    icon: "/leaf.png"
+  }
+  };
 
 export default function RootLayout({
   children,
