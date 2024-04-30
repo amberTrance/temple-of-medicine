@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 
 import DarkModeButton from "@/app/components/darkMode";
 import { NavbarLinks } from "@/app/layout/navbar/components/navbarLinks";
-import { landingPagePath } from "../../../../constants";
+import { landingPagePath, prefix } from "../../../../constants";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -14,17 +14,18 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className={`logo-container underline-grow ${pathname === "/" && "underline-grow-stable"}`}>
+      <div
+        className={`logo-container underline-grow ${
+          pathname === "/" && "underline-grow-stable"
+        }`}
+      >
         {/** Quick fix for github specific bug*/}
-        <a
-          className="logo"
-          href={landingPagePath}
-        >
+        <a className="logo" href={landingPagePath}>
           Temple of Medicine
         </a>
 
-        <Image src="/leaf.png" width={25} height={25} alt="temple"/>
-        </div>
+        <Image src={`${prefix}/leaf.png`} width={25} height={25} alt="temple" />
+      </div>
 
       <div className="f-row">
         <NavbarLinks />
