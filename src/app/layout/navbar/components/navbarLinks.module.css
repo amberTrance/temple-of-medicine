@@ -34,15 +34,19 @@
 [data-theme="light"] .navbarLinks {
   color: #535661;
 }
-
-@media (min-width: 600px) {
-  [data-theme="dark"] .navbarLinks:hover {
-    color: #ffffff;
-  }
-  [data-theme="light"] .navbarLinks:hover {
-    color: #000000;
-  }
+[data-theme="dark"] .navbarLinks:hover, .navbarLinksSelected {
+  color: #ffffff;
 }
+[data-theme="light"] .navbarLinks:hover, .navbarLinksSelected {
+  color: #000000;
+}
+[data-theme="dark"] .navbarLinksSelected {
+  color: #ffffff !important;
+}
+[data-theme="light"] .navbarLinksSelected{
+  color: #000000 !important;
+}
+
 
 @media (max-width: 600px) {
   .ulContainer {
@@ -50,6 +54,14 @@
     display: block;
     inset: calc(92px + 2.25rem) 0px 0px;
     margin: 0;
+    z-index: 1;
+  }
+
+  [data-theme="dark"] .ulContainer {
+    background-color: #1f2028;
+  }
+  [data-theme="light"] .ulContainer {
+    background-color: white;
   }
 
   [data-theme="dark"] .li {

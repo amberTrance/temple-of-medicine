@@ -1,14 +1,20 @@
+"use client"
 // import Link from "next/link";
 import Image from "next/image"
+import { usePathname } from 'next/navigation'
 
 import DarkModeButton from "@/app/components/darkMode";
 import { NavbarLinks } from "@/app/layout/navbar/components/navbarLinks";
 import { landingPagePath } from "../../../../constants";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
+  // --- RENDER ---
+
   return (
     <nav className="navbar">
-      <div className="logo-container underline-grow">
+      <div className={`logo-container underline-grow ${pathname === "/" && "underline-grow-stable"}`}>
         {/** Quick fix for github specific bug*/}
         <a
           className="logo"

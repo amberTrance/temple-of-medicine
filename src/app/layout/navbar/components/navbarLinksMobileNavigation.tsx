@@ -42,7 +42,7 @@ export const NavbarLinksMobileNavigation = () => {
 
       {isOpen && (
         <ul className={`${styles.ulContainer} show`}>
-          <NavbarLinksList />
+          <NavbarLinksList handleClick={handleClick}/>
         </ul>
       )}
     </>

@@ -169,6 +169,10 @@ ul {
   .underline-grow:hover::before {
     width: 100%;
   }
+
+  .underline-grow-stable::before {
+    width: 100%;
+  }
 }
 [data-theme="dark"] .underline-grow::before {
   background-color: #ffffff;
@@ -176,6 +180,7 @@ ul {
 [data-theme="light"] .underline-grow::before {
   background-color: #000000;
 }
+
 
 /* PARAGRAPHS */
 

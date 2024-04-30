@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FaArrowLeft } from "react-icons/fa6";
+
 import { prefix } from "../../../../constants";
 
 type HeadingProps = {
