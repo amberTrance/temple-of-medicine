@@ -9,11 +9,11 @@ import { prefix } from "../../../../constants";
 type HeadingProps = {
     alt: string;
     date: string;
-    heading: string;
+    title: string;
     src: string;
 }
 
-export const Heading = ({ alt, date, heading, src }: HeadingProps) => {
+export const Heading = ({ alt, date, title, src }: HeadingProps) => {
   const router = useRouter();
 
   // --- RETURN ---
@@ -39,7 +39,7 @@ export const Heading = ({ alt, date, heading, src }: HeadingProps) => {
         <p style={{ fontWeight: "bold", fontSize: "18px" }}>Back to overview</p>
       </button>
 
-      <h1 style={{ margin: "0px" }}>{heading}</h1>
+      <h1 style={{ margin: "0px" }}>{title}</h1>
 
       <p style={{ fontWeight: "bold" }}>{date}</p>
 

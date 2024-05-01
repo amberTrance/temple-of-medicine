@@ -6,7 +6,7 @@ export default function TheDamageOfSelfImportance() {
     <>
       <Heading
         date="28th of April, 2024"
-        heading="The Damage of Self-Importance"
+        title="The Damage of Self-Importance"
         src="arrogance"
         alt="Artist holding a cup looking smug"
       />

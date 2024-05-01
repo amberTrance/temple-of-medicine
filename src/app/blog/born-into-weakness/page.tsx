@@ -7,7 +7,7 @@ export default function BornIntoWeakness() {
     <>
       <Heading
         date="22nd of April, 2024"
-        heading="Born into weakness"
+        title="Born into weakness"
         src="bird-escaping"
         alt="Bird escaping a cage"
       />

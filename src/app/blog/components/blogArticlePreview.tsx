@@ -6,15 +6,16 @@ import Link from "next/link";
 import { prefix } from "../../../../constants";
 
 import styles from "./blogArticlePreview.module.css"
+import { HoverStyle } from "@/app/blog/utils/blogData";
 
 type BlogArticlePreviewProps = {
-    alt: string;
-    date: string;
-    hover: "yellow" | "red"
-    href: string;
-    src: string;
-    title: string;
-}
+  alt: string;
+  date: string;
+  hover: HoverStyle;
+  href: string;
+  src: string;
+  title: string;
+};
 
 export const BlogArticlePreview = ({ alt, date, hover, href, src, title }: BlogArticlePreviewProps) => {
   const [hoverClass, setHoverClass] = useState("")
