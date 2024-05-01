@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div
         className={`logo-container underline-grow ${
-          pathname === "/" && "underline-grow-stable"
+          pathname === `${prefix}/` && "underline-grow-stable"
         }`}
       >
         {/** Quick fix for github specific bug*/}

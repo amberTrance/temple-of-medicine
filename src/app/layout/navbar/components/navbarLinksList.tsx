@@ -2,6 +2,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 import styles from "./navbarLinks.module.css";
+import { prefix } from "../../../../../constants";
 
 type NavbarLinksListProps = {
   handleClick?: () => void;
@@ -17,7 +18,7 @@ export const NavbarLinksList = ({ handleClick }: NavbarLinksListProps) => {
       <li className={styles.li}>
         <Link
           className={`${styles.navbarLinks} underline-grow ${
-            pathname === "/blog" &&
+            pathname === `${prefix}/blog` &&
             `underline-grow-stable ${styles.navbarLinksSelected}`
           }`}
           href="/blog"
@@ -30,7 +31,7 @@ export const NavbarLinksList = ({ handleClick }: NavbarLinksListProps) => {
       <li className={styles.li}>
         <Link
           className={`${styles.navbarLinks} underline-grow ${
-            pathname === "/about" &&
+            pathname === `${prefix}/about` &&
             `underline-grow-stable ${styles.navbarLinksSelected}`
           }`}
           href="/about"
