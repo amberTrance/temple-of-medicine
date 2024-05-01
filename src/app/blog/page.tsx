@@ -1,5 +1,5 @@
 import { BlogArticlePreview } from "@/app/blog/components/blogArticlePreview";
-import { BlogData } from "@/app/blog/utils/blogData";
+import { BlogData, HoverStyle } from "@/app/blog/utils/blogData";
 
 export default function Blog() { 
     return (
@@ -34,7 +34,7 @@ export default function Blog() {
           <BlogArticlePreview
             alt="Bird escaping a cage"
             date="22nd of April, 2024"
-            hover="yellow"
+            hover={HoverStyle.YELLOW}
             href="/blog/born-into-weakness"
             src="bird-escaping"
             title="Born into Weakness"
