@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaArrowDown } from "react-icons/fa6";
 import { prefix } from "../../../constants";
 
-import styles from "./about.module.css"
+import styles from "./page.module.css"
 import Link from "next/link";
 
 export default function About() {

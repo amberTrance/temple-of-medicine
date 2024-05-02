@@ -14,15 +14,6 @@ export default function Blog() {
           }}
         >
           <ArticlePreview
-            alt={ArticleData.stairs.alt}
-            date={ArticleData.stairs.date}
-            hover={ArticleData.stairs.hover}
-            href={ArticleData.stairs.href}
-            title={ArticleData.stairs.title}
-            src={ArticleData.stairs.src}
-          />
-
-          <ArticlePreview
             alt={ArticleData.arrogance.alt}
             date={ArticleData.arrogance.date}
             hover={ArticleData.arrogance.hover}
