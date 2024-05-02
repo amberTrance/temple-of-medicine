@@ -28,7 +28,7 @@ export const DreamsData = {
     date: "1st of May, 2024",
     hover: HoverStyle.RED,
     href: "/dreams/dream-the-moving-stairs",
-    title: "Dream: The Moving Stairs",
+    title: "The Moving Stairs",
     src: "stairs",
   },
   stone: {
@@ -36,7 +36,7 @@ export const DreamsData = {
     date: "2nd of May, 2024",
     hover: HoverStyle.RED,
     href: "/dreams/the-rolling-stone",
-    title: "Dream: The Rolling Stone",
+    title: "The Rolling Stone",
     src: "stone",
   },
 };
