@@ -4,7 +4,7 @@ import { BlogData } from "@/app/blog/utils/blogData";
 
 export default function BornIntoWeakness() {
   return (
-    <>
+    <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading
         alt={BlogData.stairs.alt}
         date={BlogData.stairs.date}
@@ -122,6 +122,6 @@ export default function BornIntoWeakness() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

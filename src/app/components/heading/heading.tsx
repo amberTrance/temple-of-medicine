@@ -43,14 +43,16 @@ export const Heading = ({ alt, date, title, src }: HeadingProps) => {
 
       <p style={{ fontWeight: "bold" }}>{date}</p>
 
-      <Image
-        src={`${prefix}/${src}.jpg`}
-        alt={alt}
-        width="780"
-        height="500"
-        layout="responsive"
-        style={{ margin: "20px 0px", borderRadius: "5px" }}
-      />
+      <div style={{ aspectRatio: "4/3", position: "relative", width: "100%", marginBottom: "40px" }}>
+        <Image
+          layout="fill"
+          src={`${prefix}/${src}.jpg`}
+          alt={alt}
+          objectFit="cover"
+          objectPosition="center"
+          style={{ margin: "20px 0px", borderRadius: "5px" }}
+        />
+      </div>
     </>
   );
 };

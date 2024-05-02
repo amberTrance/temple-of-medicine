@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 
 export default function TheDamageOfSelfImportance() {
   return (
-    <>
+    <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading
         date="28th of April, 2024"
         title="The Damage of Self-Importance"
@@ -148,6 +148,6 @@ export default function TheDamageOfSelfImportance() {
           If all of us would have the courage to do it.
         </p>
       </div>
-    </>
+    </div>
   );
 }

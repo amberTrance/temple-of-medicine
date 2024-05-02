@@ -4,7 +4,7 @@ import styles from "../page.module.css";
 
 export default function BornIntoWeakness() {
   return (
-    <>
+    <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading
         date="22nd of April, 2024"
         title="Born into weakness"
@@ -110,6 +110,6 @@ export default function BornIntoWeakness() {
           humanity.
         </p>
       </div>
-    </>
+    </div>
   );
 }
