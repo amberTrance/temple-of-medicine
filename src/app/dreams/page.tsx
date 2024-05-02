@@ -1,4 +1,4 @@
-import { ArticleData, HoverStyle } from "@/app/utils/articleData";
+import { DreamsData, HoverStyle } from "@/app/utils/articleData";
 import { ArticlePreview } from "@/app/components/articlePreview/articlePreview";
 
 export default function Blog() { 
@@ -14,12 +14,12 @@ export default function Blog() {
           }}
         >
           <ArticlePreview
-            alt={ArticleData.stairs.alt}
-            date={ArticleData.stairs.date}
-            hover={ArticleData.stairs.hover}
-            href={ArticleData.stairs.href}
-            title={ArticleData.stairs.title}
-            src={ArticleData.stairs.src}
+            alt={DreamsData.stairs.alt}
+            date={DreamsData.stairs.date}
+            hover={DreamsData.stairs.hover}
+            href={DreamsData.stairs.href}
+            title={DreamsData.stairs.title}
+            src={DreamsData.stairs.src}
           />
         </div>
       </>

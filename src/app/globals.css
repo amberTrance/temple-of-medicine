@@ -17,6 +17,8 @@ span {
 main {
   min-height: 100vh;
   line-height: 1.25;
+  max-width: 1500px;
+  margin: auto;
 }
 @media (min-width: 300px) {
   main {
@@ -88,7 +90,9 @@ ul {
   padding: 48px;
   width: 100%;
   box-sizing: border-box;
-  gap: 10px
+  gap: 10px;
+  max-width: 1590px;
+  margin: auto;
 }
 @media (max-width: 600px) {
   .navbar {
@@ -192,7 +196,7 @@ p {
   color: #C8C8C8;
 }
 [data-theme="light"] p {
-  color: #535661;
+  color: #373941;
 }
 @media (min-width: 1025px) {
   p {
@@ -210,21 +214,33 @@ p {
 
 /* COLORS */
 
-.yellow {
-  border-radius: 12px;
-  margin: -7px;
-  padding: 5px;
-}
 [data-theme="dark"] .yellow {
-  border: #ffd644 2px solid;
+   color: #ffd644
 }
 [data-theme="light"] .yellow {
-  border: #1f2028 2px solid;
+  color: #1f2028
+}
+.red {
+  color: #ff4545
 }
 
-.red {
-  margin: -7px;
-  padding: 5px;
-  border: #ff4545 2px solid;
-  border-radius: 12px;
+@media (min-width: 400px) {
+  .yellowBorder {
+    border-radius: 12px;
+    margin: -7px;
+    padding: 5px;
+  }
+  [data-theme="dark"] .yellowBorder {
+    border: #ffd644 2px solid;
+  }
+  [data-theme="light"] .yellowBorder {
+    border: #1f2028 2px solid;
+  }
+
+  .redBorder {
+    margin: -7px;
+    padding: 5px;
+    border: #ff4545 2px solid;
+    border-radius: 12px;
+  }
 }

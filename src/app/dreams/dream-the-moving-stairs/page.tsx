@@ -1,20 +1,20 @@
 import { Heading } from "@/app/components/heading/heading";
 import styles from "../page.module.css";
-import { ArticleData } from "@/app/utils/articleData";
+import { DreamsData } from "@/app/utils/articleData";
 
 export default function BornIntoWeakness() {
   return (
     <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading
-        alt={ArticleData.stairs.alt}
-        date={ArticleData.stairs.date}
-        title={ArticleData.stairs.title}
-        src={ArticleData.stairs.src}
+        alt={DreamsData.stairs.alt}
+        date={DreamsData.stairs.date}
+        title={DreamsData.stairs.title}
+        src={DreamsData.stairs.src}
       />
 
       <div className={styles.paragraphWrapper}>
         <div>
-          <h2>Context</h2>
+          <h2 className="red">Context</h2>
 
           <p>
             The dreamer is a female of 29 that lost her job recently due to
@@ -23,7 +23,7 @@ export default function BornIntoWeakness() {
         </div>
 
         <div>
-          <h2>Dream</h2>
+          <h2 className="red">Dream</h2>
 
           <p>
             Ana was climbing some stairs that were moving. The steps were
@@ -44,39 +44,39 @@ export default function BornIntoWeakness() {
         </div>
 
         <div>
-          <h2>Associations:</h2>
+          <h2 className="red">Associations:</h2>
 
           <p>
-            <span>Ana</span> - she is a friend I used to have. She was crippled
+            <span className="red">Ana</span> - she is a friend I used to have. She was crippled
             by anxiety and had a lot of negative self thoughts and poor
             self-esteem.
           </p>
 
           <p>
-            <span>stairs</span> - A movement towards greater consciousness. It
+            <span className="red">stairs</span> - A movement towards greater consciousness. It
             is difficult, tricky, the path moves and shifts, it is unstable and
             dangerous.
           </p>
 
           <p>
-            <span>marriage with Daniel</span> - Daniel was more confident, even
+            <span className="red">marriage with Daniel</span> - Daniel was more confident, even
             cocky, which Ana seemed to like in men probably since it was the
             opposite of herself. They loved each other and were together in real
             life for many years.
           </p>
 
           <p>
-            <span>house</span> - a house represents stability, it grounds you
+            <span className="red">house</span> - a house represents stability, it grounds you
           </p>
 
           <p>
-            <span>kitsch house</span> - an obviously bad choice, made in a
+            <span className="red">kitsch house</span> - an obviously bad choice, made in a
             hurry, but not representative of one's tastes.
           </p>
         </div>
 
         <div>
-          <h2>Dreamer's previous day thoughts</h2>
+          <h2 className="red">Dreamer's previous day thoughts</h2>
 
           <p>
             I've been laid off from work over two weeks ago. I have enough money
@@ -90,7 +90,7 @@ export default function BornIntoWeakness() {
         </div>
 
         <div>
-          <h2>Interpretation</h2>
+          <h2 className="red">Interpretation</h2>
 
           <p>
             The stairs move, shift, they are not static. They represent a
