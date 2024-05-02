@@ -98,6 +98,17 @@ export default function BornIntoWeakness() {
             The dreamers' fantasies of various possibilities in life are
             inflated, as in, they are overly romanticized and unrealistic.
           </p>
+
+          <p>
+            Another interesting motif is that of the number of children. In the
+            second dream <span className="red">two</span> children are born,
+            which however are stored on <span className="red">three</span> usb
+            sticks. One represents the completely unconscious state, while two represents
+            a differentiation into opposites. This could indicate
+            that the dreamer becomes more conscious of the problem, whereas before he may
+            have felt that the fantasy state was natural. Out of this higher consciousness, new
+            possibilities can be born, so out of the two comes the third.
+          </p>
         </div>
       </div>
     </div>
