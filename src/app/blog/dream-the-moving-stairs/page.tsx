@@ -1,15 +1,15 @@
 import { Heading } from "@/app/components/heading/heading";
 import styles from "../page.module.css";
-import { BlogData } from "@/app/blog/utils/blogData";
+import { ArticleData } from "@/app/utils/articleData";
 
 export default function BornIntoWeakness() {
   return (
     <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading
-        alt={BlogData.stairs.alt}
-        date={BlogData.stairs.date}
-        title={BlogData.stairs.title}
-        src={BlogData.stairs.src}
+        alt={ArticleData.stairs.alt}
+        date={ArticleData.stairs.date}
+        title={ArticleData.stairs.title}
+        src={ArticleData.stairs.src}
       />
 
       <div className={styles.paragraphWrapper}>

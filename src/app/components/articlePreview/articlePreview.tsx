@@ -5,10 +5,11 @@ import Image from "next/image"
 import Link from "next/link";
 import { prefix } from "../../../../constants";
 
-import styles from "./blogArticlePreview.module.css"
-import { HoverStyle } from "@/app/blog/utils/blogData";
+import styles from "./articlePreview.module.css"
+import { HoverStyle } from "@/app/utils/articleData";
 
-type BlogArticlePreviewProps = {
+
+type ArticlePreviewProps = {
   alt: string;
   date: string;
   hover: HoverStyle;
@@ -17,7 +18,7 @@ type BlogArticlePreviewProps = {
   title: string;
 };
 
-export const BlogArticlePreview = ({ alt, date, hover, href, src, title }: BlogArticlePreviewProps) => {
+export const ArticlePreview = ({ alt, date, hover, href, src, title }: ArticlePreviewProps) => {
   const [hoverClass, setHoverClass] = useState("")
 
   // --- RENDER ---

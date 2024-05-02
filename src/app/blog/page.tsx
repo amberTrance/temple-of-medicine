@@ -1,5 +1,5 @@
-import { BlogArticlePreview } from "@/app/blog/components/blogArticlePreview";
-import { BlogData, HoverStyle } from "@/app/blog/utils/blogData";
+import { ArticleData, HoverStyle } from "@/app/utils/articleData";
+import { ArticlePreview } from "@/app/components/articlePreview/articlePreview";
 
 export default function Blog() { 
     return (
@@ -13,31 +13,31 @@ export default function Blog() {
             alignItems: "flex-start",
           }}
         >
-          <BlogArticlePreview
-            alt={BlogData.stairs.alt}
-            date={BlogData.stairs.date}
-            hover={BlogData.stairs.hover}
-            href={BlogData.stairs.href}
-            title={BlogData.stairs.title}
-            src={BlogData.stairs.src}
-          />
-          
-          <BlogArticlePreview
-            alt={BlogData.arrogance.alt}
-            date={BlogData.arrogance.date}
-            hover={BlogData.arrogance.hover}
-            href={BlogData.arrogance.href}
-            title={BlogData.arrogance.title}
-            src={BlogData.arrogance.src}
+          <ArticlePreview
+            alt={ArticleData.stairs.alt}
+            date={ArticleData.stairs.date}
+            hover={ArticleData.stairs.hover}
+            href={ArticleData.stairs.href}
+            title={ArticleData.stairs.title}
+            src={ArticleData.stairs.src}
           />
 
-          <BlogArticlePreview
-            alt="Bird escaping a cage"
-            date="22nd of April, 2024"
-            hover={HoverStyle.YELLOW}
-            href="/blog/born-into-weakness"
-            src="bird-escaping"
-            title="Born into Weakness"
+          <ArticlePreview
+            alt={ArticleData.arrogance.alt}
+            date={ArticleData.arrogance.date}
+            hover={ArticleData.arrogance.hover}
+            href={ArticleData.arrogance.href}
+            title={ArticleData.arrogance.title}
+            src={ArticleData.arrogance.src}
+          />
+
+          <ArticlePreview
+            alt={ArticleData.bird.alt}
+            date={ArticleData.bird.date}
+            hover={ArticleData.bird.hover}
+            href={ArticleData.bird.href}
+            title={ArticleData.bird.title}
+            src={ArticleData.bird.src}
           />
         </div>
       </>
