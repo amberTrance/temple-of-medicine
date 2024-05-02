@@ -9,7 +9,7 @@ export default function Home() {
         <h1>Helping people find meaning by interpreting their dreams.</h1>
 
         <div className={styles.buttons}>
-          <Button href="/blog">Read the blog</Button>
+          <Button href="/dreams">Interpretation examples</Button>
 
           <ButtonHollow href="mailto:mind.edifice@gmail.com">Contact me</ButtonHollow>
         </div>
