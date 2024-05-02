@@ -5,6 +5,7 @@ import { prefix } from "../../../constants";
 
 import styles from "./page.module.css"
 import Link from "next/link";
+import { GoDownButton } from "@/app/components/goDownButton/goDownButton";
 
 export default function About() {
   return (
@@ -17,15 +18,8 @@ export default function About() {
         I can help you understand your unconscious by translating the metaphors
         of your dream images to you.
       </p>
-      <a href="#about-me">
-        <div className="f-row" style={{ gap: "12px" }}>
-          <button aria-label="go down" className="circle-button">
-            <FaArrowDown size="20px" />
-          </button>
-
-          <h2>Get to know more about me</h2>
-        </div>
-      </a>
+      
+      <GoDownButton id="#about-me" title="Get to know more about me"/>
 
       <section
         className={styles.section}
