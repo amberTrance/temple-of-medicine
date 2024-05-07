@@ -1,6 +1,7 @@
 export enum HoverStyle {
     RED = "redBorder",
-    YELLOW = "yellowBorder"
+    YELLOW = "yellowBorder",
+    BLUE = "blueBorder"
 }
 
 export const ArticleData = {
@@ -32,11 +33,19 @@ export const DreamsData = {
     src: "stairs",
   },
   stone: {
-    alt: "Engraving art work representing stairs.",
+    alt: "Engraving art work showing a womb with twins.",
     date: "2nd of May, 2024",
     hover: HoverStyle.RED,
     href: "/dreams/the-rolling-stone",
     title: "The Rolling Stone",
     src: "stone",
+  },
+  hiding: {
+    alt: "Engraving art work showing a snake eating a rabbit.",
+    date: "7th of April, 2024",
+    hover: HoverStyle.BLUE,
+    href: "/dreams/hiding-from-mom",
+    src: "hiding",
+    title: "Hiding from mom"
   },
 };

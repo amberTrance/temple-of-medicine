@@ -243,6 +243,13 @@ p {
     border: #ff4545 2px solid;
     border-radius: 12px;
   }
+
+  .blueBorder {
+    margin: -7px;
+    padding: 5px;
+    border: #36a3ff 2px solid;
+    border-radius: 12px;
+  }
 }
 
 li {
