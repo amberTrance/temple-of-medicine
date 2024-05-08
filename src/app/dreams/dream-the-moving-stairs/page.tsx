@@ -2,7 +2,7 @@ import { Heading } from "@/app/components/heading/heading";
 import styles from "../page.module.css";
 import { DreamsData } from "@/app/utils/articleData";
 
-export default function BornIntoWeakness() {
+export default function TheMovingStairs() {
   return (
     <div style={{ maxWidth: "1000px", margin: "auto"}}>
       <Heading

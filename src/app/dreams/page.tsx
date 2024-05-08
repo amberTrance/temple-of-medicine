@@ -12,7 +12,16 @@ export default function Blog() {
             gap: "24px",
             alignItems: "flex-start",
           }}
-        >
+          >
+          <ArticlePreview
+            alt={DreamsData.price.alt}
+            date={DreamsData.price.date}
+            hover={DreamsData.price.hover}
+            href={DreamsData.price.href}
+            title={DreamsData.price.title}
+            src={DreamsData.price.src}
+          />
+
           <ArticlePreview
             alt={DreamsData.hiding.alt}
             date={DreamsData.hiding.date}

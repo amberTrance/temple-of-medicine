@@ -24,6 +24,22 @@ export const ArticleData = {
 }
 
 export const DreamsData = {
+  hiding: {
+    alt: "Engraving art work showing a snake eating a rabbit.",
+    date: "7th of April, 2024",
+    hover: HoverStyle.BLUE,
+    href: "/dreams/hiding-from-mom",
+    src: "hiding",
+    title: "Hiding from mom"
+  },
+  price: {
+    alt: "Man hiding something inside a chest.",
+    date: "8th of April, 2024",
+    hover: HoverStyle.YELLOW,
+    href: "/dreams/the-price-to-pay-is-too-high",
+    src: "price",
+    title: "Dream series: The price to pay is too high"
+  },
   stairs: {
     alt: "Engraving art work representing stairs.",
     date: "1st of May, 2024",
@@ -39,13 +55,5 @@ export const DreamsData = {
     href: "/dreams/the-rolling-stone",
     title: "The Rolling Stone",
     src: "stone",
-  },
-  hiding: {
-    alt: "Engraving art work showing a snake eating a rabbit.",
-    date: "7th of April, 2024",
-    hover: HoverStyle.BLUE,
-    href: "/dreams/hiding-from-mom",
-    src: "hiding",
-    title: "Hiding from mom"
   },
 };
