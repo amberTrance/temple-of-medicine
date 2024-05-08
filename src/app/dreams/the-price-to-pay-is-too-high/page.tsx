@@ -126,7 +126,8 @@ export default function ThePriceToPayIsTooHigh() {
             italian is taken by surprise and attempts to jump out the window. What would this mean in psychological terms? That 
             at the moment when the dreamer is about to realize his error, he becomes unconscious again and keeps on acting under 
             the influence of the shadow figure with no recognition of his error. So the unconscious says: catch it before it runs 
-            away. The dreamer wakes up before he catches the thief.
+            away. Become aware that it's your mother complex that makes you feel that it costs too much to be in an intimate relationship.
+            The dreamer wakes up before he catches the thief.
           </p>
 
           <h3 className="yellow">Third dream</h3>
