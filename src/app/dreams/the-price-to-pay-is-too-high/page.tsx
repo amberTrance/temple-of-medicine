@@ -43,16 +43,16 @@ export default function ThePriceToPayIsTooHigh() {
             for two beers. He said it will be 30€ with an Italian accent. I found it weird but didn't really understand 
             at first (my mind was lost : did he mean 3 or 30?). I gave him a bill of 1000 czk  (green like the ones of 2000). 
             He went to the other room to find the change, the room in which my grandmother keeps her money. After some time, 
-            I was so puzzled and realized the price. So I told Angie : « I won't pay 30€ for 2 beers ». I climbed the 
+            I was so puzzled and realized the price. So I told Ana : « I won't pay 30€ for 2 beers ». I climbed the 
             stairs of the house, and the guy was closing a box on the wardrobe. He was so surprised to see me here that 
-            he made a move to jump through the window. I screamed : « Angie, open the door ! » so that it could be 
+            he made a move to jump through the window. I screamed : « Ana, open the door ! » so that it could be 
             possible to catch him from outside but managed to catch him before he jumped. I woke up and my interpretation 
             was that he had a gun in the box.
           </p>
 
           <p>
-            <span className="yellow">22.04.2023</span> - I was with Angie at my place in the bedroom. We heard a noise. A big man has opened the room's door. 
-            I asked him who he was and he said that he was living here from today. He was saying that Angie shouldn't live 
+            <span className="yellow">22.04.2023</span> - I was with Ana at my place in the bedroom. We heard a noise. A big man has opened the room's door. 
+            I asked him who he was and he said that he was living here from today. He was saying that Ana shouldn't live 
             here, that it was illegal. I told him that she didn't live here (because she didn't). He went to the other room 
             that had completely changed. There was big furniture now in the room (a wardrobe, a table, he even put a clock 
             on the wall). I asked him who he was. He said that he was coming from North-East Italy, I thought that it must 
