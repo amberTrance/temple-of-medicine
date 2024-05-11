@@ -57,9 +57,7 @@ export default function Home() {
 
         <p>
           If you opt for the video session, we have fifty minutes together to
-          explore a dream and your goals. The price of a session is for start{" "}
-          <span className="blue">10 euros</span> and you can pay in any currency you
-          need. For more details feel free to contact me through email.
+          explore a dream and your goals.
         </p>
       </section>
 
