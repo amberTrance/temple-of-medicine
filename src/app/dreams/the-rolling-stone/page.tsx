@@ -109,6 +109,44 @@ export default function TheRollingStone() {
             have felt that the fantasy state was natural. Out of this higher consciousness, new
             possibilities can be born, so out of the two comes the third.
           </p>
+
+          <h2 className="red">Excerpt from The Secret of The Golden Flower</h2>
+
+          <p>
+            Below is an excerpt from Richard Willhelm's book "The Secret 
+            of the Golden Flower" which illustrates the problem of following 
+            the anima and losing the possibility of individuation as 
+            consquence.
+          </p>
+
+          <p>
+            "...if the ego follows the anima, the personal element retreats
+            and there ensues an involution corresponding to the
+            amount of externalization. The being then becomes
+            an impotent phantom because the forces of life fail and its
+            fate is ended. It now partakes of the fruits of its good
+            or bad deeds in heavens or hells, which, however, are
+            not external things, but purely subjective states. The
+            more the being is sunk in these states, the more entangled
+            in them it becomes, till finally it disappears from the plane
+            of existence, of whatever nature that may have been, and
+            then by entering a new womb begins a new existence
+            formed out of its supply of images and memories. This
+            condition is the state of the daemon, the spirit, the
+            departed one, the one who withdraws. The Chinese
+            word for this ghost-being is kuei, often wrongly translated
+            by "devil".
+        
+            If, on the other hand, it has been possible during life
+            to set going the "backward-flowing", rising movement of
+            the life-forces, if the forces of the anima are mastered by
+            the animus, then a release from external things takes place.
+            They are recognized but not desired. Thus the illusion is robbed of its strength.
+            An inner, ascending circulation of forces takes place.
+            The ego withdraws from its entanglement in the world, and after death
+            remains alive because interiorization has prevented
+            the wasting of the life-forces in the outer world."
+          </p>
         </div>
       </div>
     </div>
