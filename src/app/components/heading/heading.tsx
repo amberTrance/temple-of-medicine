@@ -9,11 +9,12 @@ import { prefix } from "../../../../constants";
 type HeadingProps = {
     alt: string;
     date: string;
+    position?: "top" | "center" | "bottoms"
     title: string;
     src: string;
 }
 
-export const Heading = ({ alt, date, title, src }: HeadingProps) => {
+export const Heading = ({ alt, date, position = 'center', title, src }: HeadingProps) => {
   const router = useRouter();
 
   // --- RETURN ---
@@ -49,7 +50,7 @@ export const Heading = ({ alt, date, title, src }: HeadingProps) => {
           src={`${prefix}/${src}.jpg`}
           alt={alt}
           objectFit="cover"
-          objectPosition="center"
+          objectPosition={position}
           style={{ margin: "20px 0px", borderRadius: "5px" }}
         />
       </div>

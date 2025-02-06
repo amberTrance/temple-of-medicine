@@ -14,6 +14,15 @@ export default function Blog() {
           }}
           >
           <ArticlePreview
+            alt={DreamsData.fear.alt}
+            date={DreamsData.fear.date}
+            hover={DreamsData.fear.hover}
+            href={DreamsData.fear.href}
+            title={DreamsData.fear.title}
+            src={DreamsData.fear.src}
+          />
+
+          <ArticlePreview
             alt={DreamsData.price.alt}
             date={DreamsData.price.date}
             hover={DreamsData.price.hover}

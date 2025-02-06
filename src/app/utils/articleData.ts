@@ -24,6 +24,14 @@ export const ArticleData = {
 }
 
 export const DreamsData = {
+  fear: {
+    alt: "Painting 'Saturn' by Goya showing sa man eating a child.",
+    date: "6th of January, 2025",
+    hover: HoverStyle.RED,
+    href: "/dreams/facing-my-fears",
+    src: "fear",
+    title: "Dream Series: Facing my fears"
+  },
   hiding: {
     alt: "Engraving art work showing a snake eating a rabbit.",
     date: "7th of April, 2024",
