@@ -14,7 +14,7 @@ export default function HidingFromMom() {
 
       <div className={styles.paragraphWrapper}>
         <div>
-          <h2 className="red">Dreams</h2>
+          <h2 className="blue">Dreams</h2>
 
           <p>
             I was at my parent's place and I had to go to Paris probably to the airport, and from there to Prague (I was living there). 
@@ -35,7 +35,7 @@ export default function HidingFromMom() {
         </div>
 
         <div>
-          <h2 className="red">Context</h2>
+          <h2 className="blue">Context</h2>
 
           <p>
             The dreamer is a male of 30. He is temporary living at his parents and he is about to meet his girlfriend with 
@@ -44,36 +44,36 @@ export default function HidingFromMom() {
         </div>
 
         <div>
-          <h2 className="red">Associations:</h2>
+          <h2 className="blue">Associations:</h2>
 
           <p>
-            <span className="red">parents place</span> - clean, a place i don't want to be in, i still feel at home tho. I don't have the same emotional connection to this house as other people. 
+            <span className="blue">parents place</span> - clean, a place i don't want to be in, i still feel at home tho. I don't have the same emotional connection to this house as other people. 
             It's not really my house.
           </p>
 
           <p>
-            <span className="red">Paris</span> - University, my flat in Paris. Emotionally it's positive, I had my little rhythm, was going to the library, intellectual, artistic - close to me.
+            <span className="blue">Paris</span> - University, my flat in Paris. Emotionally it's positive, I had my little rhythm, was going to the library, intellectual, artistic - close to me.
           </p>
 
           <p>
-            <span className="red">Prague</span> - When I moved there, it was in the idea to get a job and be mature. Then I was with my girlfriend there too.
+            <span className="blue">Prague</span> - When I moved there, it was in the idea to get a job and be mature. Then I was with my girlfriend there too.
           </p>
 
           <p>
-            <span className="red">luggage</span> - travelling, something annoying, I would like to travel with a backpack. 
+            <span className="blue">luggage</span> - travelling, something annoying, I would like to travel with a backpack. 
           </p>
 
           <p>
-            <span className="red">pants</span> - something you wear, something that fits you. They need to fit well, more important than with shirts, to feel good, comfortable.
+            <span className="blue">pants</span> - something you wear, something that fits you. They need to fit well, more important than with shirts, to feel good, comfortable.
           </p>
 
           <p>
-            <span className="red">Ludmilla</span> - someone I played a sexual role with, which makes it rather fake.
+            <span className="blue">Ludmilla</span> - someone I played a sexual role with, which makes it rather fake.
           </p>
         </div>
 
         <div>
-          <h2 className="red">Interpretation first dream</h2>
+          <h2 className="blue">Interpretation first dream</h2>
 
           <p>
             The locale of the dream represents the current state of the dreamer. He is in a place he doesn't want to be in.
@@ -102,7 +102,7 @@ export default function HidingFromMom() {
             and fail undertaking the journey.
           </p>
 
-          <h2 className="red">Interpretation second dream</h2>
+          <h2 className="blue">Interpretation second dream</h2>
 
           <p>
             Here we have the dreamer's mother upset with him bringing a girl at home. In the actual life, the dreamer has never
@@ -127,7 +127,7 @@ export default function HidingFromMom() {
           </p>
 
           
-          <h2 className="red">Synthesis</h2>
+          <h2 className="blue">Synthesis</h2>
 
           <p>
             We concluded together that both his dreams refer to hesitations towards going fully into life and maturing, and that 
