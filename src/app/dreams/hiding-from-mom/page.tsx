@@ -5,12 +5,12 @@ import { DreamsData } from "@/app/utils/articleData";
 export default function HidingFromMom() {
   return (
     <div style={{ maxWidth: "1000px", margin: "auto" }}>
-      {/* <Heading
+      <Heading
         alt={DreamsData.hiding.alt}
         date={DreamsData.hiding.date}
         title={DreamsData.hiding.title}
         src={DreamsData.hiding.src}
-      /> */}
+      />
 
       <div className={styles.paragraphWrapper}>
         <div>

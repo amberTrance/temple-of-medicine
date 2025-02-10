@@ -13,14 +13,14 @@ export default function Blog() {
             alignItems: "flex-start",
           }}
           >
-          <ArticlePreview
+          {/* <ArticlePreview
             alt={DreamsData.fear.alt}
             date={DreamsData.fear.date}
             hover={DreamsData.fear.hover}
             href={DreamsData.fear.href}
             title={DreamsData.fear.title}
             src={DreamsData.fear.src}
-          />
+          /> */}
 
           <ArticlePreview
             alt={DreamsData.price.alt}
