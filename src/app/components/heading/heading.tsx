@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -7,14 +7,20 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { prefix } from "../../../../constants";
 
 type HeadingProps = {
-    alt: string;
-    date: string;
-    position?: "top" | "center" | "bottoms"
-    title: string;
-    src: string;
-}
+  alt: string;
+  date: string;
+  position?: "top" | "center" | "bottoms";
+  title: string;
+  src: string;
+};
 
-export const Heading = ({ alt, date, position = 'center', title, src }: HeadingProps) => {
+export const Heading = ({
+  alt,
+  date,
+  position = "center",
+  title,
+  src,
+}: HeadingProps) => {
   const router = useRouter();
 
   // --- RETURN ---
@@ -44,14 +50,25 @@ export const Heading = ({ alt, date, position = 'center', title, src }: HeadingP
 
       <p style={{ fontWeight: "bold" }}>{date}</p>
 
-      <div style={{ aspectRatio: "4/3", position: "relative", width: "100%", marginBottom: "40px" }}>
+      <div
+        style={{
+          aspectRatio: "4/3",
+          position: "relative",
+          width: "100%",
+          marginBottom: "40px",
+        }}
+      >
         <Image
-          layout="fill"
           src={`${prefix}/${src}.jpg`}
           alt={alt}
-          objectFit="cover"
-          objectPosition={position}
-          style={{ margin: "20px 0px", borderRadius: "5px" }}
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover",
+            objectPosition: position,
+            margin: "20px 0px",
+            borderRadius: "5px",
+          }}
         />
       </div>
     </>

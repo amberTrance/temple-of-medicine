@@ -6,15 +6,28 @@ import { prefix } from "../../../../../constants";
 
 type NavbarLinksListProps = {
   handleClick?: () => void;
-}
+};
 
 export const NavbarLinksList = ({ handleClick }: NavbarLinksListProps) => {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   // --- RENDER ---
 
   return (
     <>
+      <li className={styles.li}>
+        <Link
+          className={`${styles.navbarLinks} underline-grow ${
+            pathname === `${prefix}/symbols` &&
+            `underline-grow-stable ${styles.navbarLinksSelected}`
+          }`}
+          href="/symbols"
+          onClick={handleClick}
+        >
+          Symbols
+        </Link>
+      </li>
+
       <li className={styles.li}>
         <Link
           className={`${styles.navbarLinks} underline-grow ${

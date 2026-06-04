@@ -1,13 +1,12 @@
-"use client"
+"use client";
 import { useState } from "react";
 
-import Image from "next/image"
+import Image from "next/image";
 import Link from "next/link";
 import { prefix } from "../../../../constants";
 
-import styles from "./articlePreview.module.css"
+import styles from "./articlePreview.module.css";
 import { HoverStyle } from "@/app/utils/articleData";
-
 
 type ArticlePreviewProps = {
   alt: string;
@@ -18,8 +17,15 @@ type ArticlePreviewProps = {
   title: string;
 };
 
-export const ArticlePreview = ({ alt, date, hover, href, src, title }: ArticlePreviewProps) => {
-  const [hoverClass, setHoverClass] = useState("")
+export const ArticlePreview = ({
+  alt,
+  date,
+  hover,
+  href,
+  src,
+  title,
+}: ArticlePreviewProps) => {
+  const [hoverClass, setHoverClass] = useState("");
 
   // --- RENDER ---
 
@@ -33,12 +39,15 @@ export const ArticlePreview = ({ alt, date, hover, href, src, title }: ArticlePr
         >
           <div className={`${styles.imageWrapper}`}>
             <Image
-              layout="fill"
               src={`${prefix}/${src}.jpg`}
               alt={alt}
-              objectFit="cover"
-              objectPosition="center"
-              style={{ borderRadius: "5px"}}
+              fill
+              sizes="100vw"
+              style={{
+                objectFit: "cover",
+                objectPosition: "center",
+                borderRadius: "5px",
+              }}
             />
           </div>
         </div>

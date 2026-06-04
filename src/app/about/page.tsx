@@ -3,81 +3,75 @@ import Image from "next/image";
 import { FaArrowDown } from "react-icons/fa6";
 import { prefix } from "../../../constants";
 
-import styles from "./page.module.css"
+import styles from "./page.module.css";
 import Link from "next/link";
 import { GoDownButton } from "@/app/components/goDownButton/goDownButton";
 
 export default function About() {
   return (
     <>
-      <h1>
-        Hi, I am Angie.
-        <br />I interpret dreams.
-      </h1>
+      <h1>Hi, I am Angie</h1>
       <p style={{ fontSize: "20px", maxWidth: "400px" }}>
-        I can help you understand your unconscious by translating the metaphors
-        of your dream images to you.
+        I have been reading Carl Jung, Marie-Louise von Franz and other Jungian
+        authors for over 7 years, and not only reading but applying everything
+        in my personal life. I've interpreted many dreams for myself and friends
+        with great results. Now I am merely putting all this knowledge out here.
       </p>
-      
-      <GoDownButton id="#about-me" title="Get to know more about me"/>
 
-      <section
-        className={styles.section}
-      >
+      <GoDownButton id="#about-me" title="Get to know more about me" />
+
+      <section className={styles.section}>
         <div className={styles.paragraphImageContainer}>
           <div className={styles.textContainer}>
-            <h2 id="about-me">From Art</h2>
+            <h2 id="about-me">Making sense of reality</h2>
 
             <p>
-              I was born on a beautiful{" "}
-              <span>Sunday in the Spring of 1993</span>. Since I was little I
-              enjoyed drawing and my first memory about it is from the age of
-              five.
+              If you are reading this, you are most likely someone that is not
+              satisfied with life as society presents it to you. Maybe you have
+              a feeling that there's more to life than the basic cycles of
+              birth, jobs, marriage, kids and death. Well, this of course
+              applies to me as well. I've been feeling restless since a long
+              time ago, since I am 12, to be more precise.
             </p>
 
             <p>
-              I remember laying down on the table this T-shirt with a{" "}
-              <span>Tom and Jerry</span> print and drawing after it. When I
-              finished, I went to the other room and showed it to mom. She{" "}
-              <span>did not believe I drew it myself</span>. She thought I laid
-              the paper over an image and merely copied it. I had to show her the T-shirt for her to believe me, but then she was very joyful.
+              Back then I merely had the thought that this cannot be all that
+              there is. My mother was interested in paranormal phenomena and
+              because of that one day I started reading a book about astral
+              projections. I have tried the techniques described in there with
+              no success. Later, around 16, I have found a group called AGEAC
+              that was a mixture of various teachings from gnosticism to Eastern
+              philosophies, and it provided various techniques such as opening
+              your chakras. I've always had an empirical approach to everything,
+              and when I got no results in 2 years, I've left.
             </p>
 
             <p>
-              In sixth grade I started attending <span>arts school</span>. Here
-              in my hometown we had a school with a focus on art, where two days
-              of the week were dedicated entirely to painting, drawing or
-              sculpting. What a blessing to skip those physics classes.
-            </p>
-
-            <h2>To the Meaning of Life</h2>
-
-            <p>
-              As a teenager, I grew more interested in
-              <span> how this world works</span>. I felt there must be something
-              beyond the ordinary every day experience.
-            </p>
-
-            <p>
-              I begun searching, not knowing what I am looking for exactly. I
-              wondered if <span>spirituality</span> had an answer for me so I
-              begun looking into christianity, wicca, and many other practices
-              and creeds.
+              Unfortunatelly, the failed experiments made me into a convicted
+              atheist (and I dreamed of Virgin Marry telling me that I am
+              departing from my path, which I interpreted as a mere brain
+              activity). 7 more years had to pass until a friend showed me
+              Jordan Peterson, who spoke about Jung. Well, 7 more years from
+              that moment I can tell you that while there is still a lot that I
+              do not understand, I applied once more the empirical approach and
+              this time it DID lead me to good results. I can tell you with
+              certainty that there is such a thing as premonitory dreams, that
+              dream symbols, once you know how to read them, make a whole lot of
+              sense and can tell you better than a therapist what you do wrong
+              and right. I can tell you that I have grown more than I could have
+              ever dreamed of, left behind neurotic symptoms that no Psychology
+              degree and cognitive or behavioral techniques could fix. And I
+              have achieved all of this entirely through the knowledge provided
+              by Jung.
             </p>
 
             <p>
-              I then joined a spiritual sect called{" "}
-              <span>
-                <Link href="https://ageac.org/en/">AGEAC</Link>
-              </span>
-              . I was part of this group for two years. It was so disappointing
-              that in the end I became an atheist for a long time after.
+              And to make a long story short, after I got friends and family
+              "wow" at me after interpreting their dreams, I thought I could
+              give it a try in the wilderness. So enjoy this website where I
+              will try my best to provide dream examples, symbols analysis and
+              other interesting and hopefully inspiring topics.
             </p>
-
-            <p>
-              After high-school I decided to study <span>Psychology</span>.
-            </p>
-            <br />
           </div>
 
           <div className={styles.image}>
@@ -90,69 +84,6 @@ export default function About() {
               style={{ borderRadius: "5px" }}
             />
           </div>
-        </div>
-
-        <div>
-          <h2>And Psychology</h2>
-
-          <p>
-            By the end of the last year of my studies, I was{" "}
-            <span>
-              neurotic, suffered from generalized anxiety and I had no idea what
-              I am doing with my life.
-            </span>
-          </p>
-
-          <p>
-            I wasn't the only one though, my friends and colleagues were all
-            plagued with various mental disorders.
-          </p>
-
-          <p>
-            Somehow, all that learning about cognitive and behavioral therapies
-            did nothing for me.
-          </p>
-
-          <p>
-            Then I found <span>Jordan Peterson</span>. I was blown away by his
-            ideas about authenticity. However, his advice didn't help me either.
-          </p>
-          <br />
-
-          <h2>To the Unconscious</h2>
-
-          <p>
-            This is when I begun reading <span>Carl Jung</span>, one of
-            Peterson's sources of inspiration. My life started to truly change
-            after.
-          </p>
-
-          <p>
-            It's been <span>six years</span> since I am reading Jung's
-            works and it never stopped being relevant to me, or ceased to help
-            me.
-          </p>
-
-          <p>
-            I can confidently say that now I did find what I was looking for:
-            <span> the unconscious</span>.
-          </p>
-
-          <p>
-            It took me many years and a lot of reading to finally be able to
-            interpret dreams well.
-          </p>
-
-          <p>
-            The works of <span>Marie-Louise von Franz</span> have been of
-            tremendous help to me.
-          </p>
-
-          <p>
-            After deciphering dreams for people close to me and receiving their
-            positive feedback, I have made up my mind to put this skill out
-            there and make a living by doing what matters to me.
-          </p>
         </div>
       </section>
     </>

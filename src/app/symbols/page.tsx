@@ -1,7 +1,7 @@
-import { DreamsData, HoverStyle } from "@/app/utils/articleData";
+import { DreamsData } from "@/app/utils/articleData";
 import { ArticlePreview } from "@/app/components/articlePreview/articlePreview";
 
-export default function Blog() {
+export default function Symbols() {
   return (
     <>
       <div

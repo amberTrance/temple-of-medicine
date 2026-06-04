@@ -28,11 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`dark ${montserrat.className}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={montserrat.className}>
         <Providers>
           <Navbar />
-
           <main>{children}</main>
         </Providers>
       </body>
