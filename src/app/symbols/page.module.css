@@ -1,11 +1,171 @@
-.paragraphWrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.container {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 64px;
+  align-items: start;
 }
 
-.row {
+.searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 14px;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+[data-theme="dark"] .searchInput {
+  background: #2a2b33;
+  border: 1px solid #3a3b42;
+  color: #ffffff;
+}
+
+[data-theme="light"] .searchInput {
+  background: #f7f7f7;
+  border: 1px solid #d9d9d9;
+  color: #1f2028;
+}
+
+[data-theme="dark"] .searchInput:focus {
+  border-color: #626369;
+}
+
+[data-theme="light"] .searchInput:focus {
+  border-color: #a6a6a6;
+}
+
+.noResults {
+  opacity: 0.4;
+  font-size: 15px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 24px;
   display: flex;
-  flex-direction: row;
-  gap: 24px;
+  flex-direction: column;
+  max-height: 60vh;
+}
+
+.wordList {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #555 transparent;
+}
+
+.wordList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.wordList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.wordList::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.wordButton {
+  text-align: left;
+  background: none;
+  border: none;
+  border-left: 2px solid transparent;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px 12px;
+  transition: color 0.2s ease;
+}
+
+[data-theme="light"] .wordButton {
+  color: #5c5c5c;
+}
+
+[data-theme="dark"] .wordButton {
+  color: #888888;
+}
+
+[data-theme="light"] .wordButton:hover {
+  color: #1f2028;
+}
+
+[data-theme="dark"] .wordButton:hover {
+  color: #ffffff;
+}
+
+.active {
+  font-weight: bold;
+  border-left: 2px solid var(--blue);
+}
+
+[data-theme="light"] .active {
+  color: #1f2028;
+}
+
+[data-theme="dark"] .active {
+  color: #ffffff;
+}
+
+.detailHeading {
+  margin: 0 0 32px;
+}
+
+.citation {
+  padding-left: 20px;
+  margin-bottom: 36px;
+}
+
+[data-theme="dark"] .citation {
+  border-left: 2px solid #32333a;
+}
+
+[data-theme="light"] .citation {
+  border-left: 2px solid #e6e6e6;
+}
+
+.citationText {
+  line-height: 1.8;
+  margin: 0 0 12px;
+}
+
+.citationSource {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .sidebar {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-height: none;
+  }
+
+  .wordList {
+    display: contents;
+  }
+
+  .wordButton {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    padding: 4px 8px;
+  }
+
+  .active {
+    border-left: none;
+    border-bottom: 2px solid var(--blue);
+  }
 }

@@ -4,6 +4,7 @@ import Head from "next/head";
 
 import Navbar from "@/app/layout/navbar/navbar";
 import "./globals.css";
+import "./colors.css";
 import { Providers } from "@/app/components/providers";
 import { prefix } from "../../constants";
 

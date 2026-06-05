@@ -1,0 +1,80 @@
+/* COLOR VARIABLES */
+
+[data-theme="dark"] {
+  --blue: #36a3ff;
+}
+[data-theme="light"] {
+  --blue: #1268b3;
+}
+
+/* TEXT COLORS */
+
+[data-theme="dark"] .yellow {
+  color: #ffd644;
+}
+[data-theme="light"] .yellow {
+  color: #b38600;
+}
+
+[data-theme="dark"] .blue,
+[data-theme="light"] .blue {
+  color: var(--blue);
+}
+
+[data-theme="dark"] .green {
+  color: #5ecc7b;
+}
+[data-theme="light"] .green {
+  color: #2d8a3e;
+}
+
+[data-theme="dark"] .red {
+  color: #ff4545;
+}
+[data-theme="light"] .red {
+  color: #c0392b;
+}
+
+[data-theme="dark"] .purple {
+  color: #b47aff;
+}
+[data-theme="light"] .purple {
+  color: #7b3fcc;
+}
+
+/* HIGHLIGHT BACKGROUNDS */
+
+[data-theme="dark"] .yellow-bg {
+  background-color: #4c442e;
+}
+[data-theme="light"] .yellow-bg {
+  background-color: #fff8dd;
+}
+
+[data-theme="dark"] .blue-bg {
+  background-color: #243d57;
+}
+[data-theme="light"] .blue-bg {
+  background-color: #dbeeff;
+}
+
+[data-theme="dark"] .green-bg {
+  background-color: #2d463a;
+}
+[data-theme="light"] .green-bg {
+  background-color: #dff5e5;
+}
+
+[data-theme="dark"] .red-bg {
+  background-color: #50282e;
+}
+[data-theme="light"] .red-bg {
+  background-color: #ffdede;
+}
+
+[data-theme="dark"] .purple-bg {
+  background-color: #403457;
+}
+[data-theme="light"] .purple-bg {
+  background-color: #f2e7ff;
+}

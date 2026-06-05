@@ -47,8 +47,8 @@ export default function About() {
             </p>
 
             <p>
-              Unfortunatelly, the failed experiments made me into a convicted
-              atheist (and I dreamed of Virgin Marry telling me that I am
+              Unfortunately, the failed experiments made me into a convicted
+              atheist (and I dreamed of Virgin Mary telling me that I am
               departing from my path, which I interpreted as a mere brain
               activity). 7 more years had to pass until a friend showed me
               Jordan Peterson, who spoke about Jung. Well, 7 more years from

@@ -1,63 +1,62 @@
-import { DreamsData } from "@/app/utils/articleData";
-import { ArticlePreview } from "@/app/components/articlePreview/articlePreview";
+"use client";
+
+import { useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { symbolsData, Symbol } from "@/app/utils/symbols";
+import styles from "./page.module.css";
 
 export default function Symbols() {
+  const searchParams = useSearchParams();
+  const wordFromUrl = searchParams.get("word");
+  const initialSymbol =
+    symbolsData.find((symbol) => symbol.slug === wordFromUrl) ?? symbolsData[0];
+  const [selected, setSelected] = useState<Symbol>(initialSymbol);
+  const [query, setQuery] = useState("");
+
+  const filtered = symbolsData
+    .filter((s) => s.word.toLowerCase().includes(query.toLowerCase()))
+    .sort((a, b) => a.word.localeCompare(b.word));
+
   return (
-    <>
-      <div
-        className="f-row"
-        style={{
-          flexWrap: "wrap",
-          justifyContent: "center",
-          gap: "24px",
-          alignItems: "flex-start",
-        }}
-      >
-        <ArticlePreview
-          alt={DreamsData.fear.alt}
-          date={DreamsData.fear.date}
-          hover={DreamsData.fear.hover}
-          href={DreamsData.fear.href}
-          title={DreamsData.fear.title}
-          src={DreamsData.fear.src}
+    <div className={styles.container}>
+      <nav className={styles.sidebar}>
+        <input
+          className={styles.searchInput}
+          type="text"
+          placeholder="Search..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
         />
+        <div className={styles.wordList}>
+          {filtered.length > 0 ? (
+            filtered.map((symbol) => (
+              <button
+                key={symbol.slug}
+                className={`${styles.wordButton} ${selected.slug === symbol.slug ? styles.active : ""}`}
+                onClick={() => setSelected(symbol)}
+              >
+                {symbol.word}
+              </button>
+            ))
+          ) : (
+            <p className={styles.noResults}>No symbols found.</p>
+          )}
+        </div>
+      </nav>
 
-        <ArticlePreview
-          alt={DreamsData.price.alt}
-          date={DreamsData.price.date}
-          hover={DreamsData.price.hover}
-          href={DreamsData.price.href}
-          title={DreamsData.price.title}
-          src={DreamsData.price.src}
-        />
-
-        <ArticlePreview
-          alt={DreamsData.hiding.alt}
-          date={DreamsData.hiding.date}
-          hover={DreamsData.hiding.hover}
-          href={DreamsData.hiding.href}
-          title={DreamsData.hiding.title}
-          src={DreamsData.hiding.src}
-        />
-
-        <ArticlePreview
-          alt={DreamsData.stone.alt}
-          date={DreamsData.stone.date}
-          hover={DreamsData.stone.hover}
-          href={DreamsData.stone.href}
-          title={DreamsData.stone.title}
-          src={DreamsData.stone.src}
-        />
-
-        <ArticlePreview
-          alt={DreamsData.stairs.alt}
-          date={DreamsData.stairs.date}
-          hover={DreamsData.stairs.hover}
-          href={DreamsData.stairs.href}
-          title={DreamsData.stairs.title}
-          src={DreamsData.stairs.src}
-        />
+      <div>
+        <h2 className={styles.detailHeading}>{selected.word}</h2>
+        {selected.citations.map((citation, i) => (
+          <div key={i} className={styles.citation}>
+            <p className={`${styles.citationText}`}>"{citation.text}"</p>
+            <p className={`${styles.citationSource} `}>
+              <span className="blue">
+                ♦ {citation.author}, {citation.source}
+              </span>
+            </p>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }

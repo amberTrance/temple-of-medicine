@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <section style={{ marginBottom: "400px" }}>
-        <h1>Helping people find meaning by interpreting their dreams.</h1>
+        <h1>Investigating the beautiful realm of the unconscious through dreams</h1>
 
         <div className={styles.buttons}>
           <Button href="/dreams">Interpretation examples</Button>
@@ -105,7 +105,7 @@ export default function Home() {
             dreams are connected to one another in a meaningful way, as if they
             tried to give expression to a central content from ever-varying
             angles. To touch this central core is to find the key to the
-            explanation of the individual dreams. Keep in mind that the deams
+            explanation of the individual dreams. Keep in mind that the dreams
             have a purpose, that the unconscious produces the dreams for a
             reason.
           </li>

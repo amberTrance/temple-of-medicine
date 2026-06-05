@@ -1,0 +1,150 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.backButton {
+  gap: 8px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.title {
+  margin: 12px 0 0;
+  font-size: 2.4rem;
+  line-height: 1.15;
+}
+
+.date {
+  font-weight: bold;
+  margin: 8px 0 0;
+}
+
+.heroImage {
+  aspect-ratio: 16 / 7;
+  position: relative;
+  width: 100%;
+  margin: 20px 0 52px;
+}
+
+/* Intro, context, synthesis sit outside the grid */
+.prose {
+  margin-bottom: 48px;
+}
+
+/* Each dream + its interpretation share a grid row */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 0;
+  row-gap: 56px;
+  align-items: start;
+  /* Continuous vertical divider line at the column boundary */
+  background-image: linear-gradient(
+    rgba(128, 128, 128, 0.2),
+    rgba(128, 128, 128, 0.2)
+  );
+  background-size: 1px 100%;
+  background-position: 40% 0;
+  background-repeat: no-repeat;
+}
+
+.synthesis {
+  margin-top: 56px;
+}
+
+.leftCol {
+  padding-right: 40px;
+}
+
+.rightCol {
+  padding-left: 40px;
+}
+
+.dreamEntry {
+  border-left: 3px solid #ffd644;
+  padding-left: 20px;
+}
+
+.dreamDate {
+  margin: 0 0 12px;
+  font-weight: bold;
+}
+
+.associationsLabel {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+}
+
+.interpretationSection {
+  margin-bottom: 24px;
+}
+
+.sectionLabel {
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.associations {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.associationItem {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.symbolLink {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+[data-theme="dark"] .symbolLink {
+  text-decoration-color: #ffd644;
+}
+[data-theme="light"] .symbolLink {
+  text-decoration-color: #b38600;
+}
+[data-theme="dark"] .symbolLink:hover {
+  color: #ffd644;
+}
+[data-theme="light"] .symbolLink:hover {
+  color: #b38600;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .heroImage {
+    aspect-ratio: 16 / 9;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    background-image: none;
+  }
+
+  .leftCol,
+  .rightCol {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
