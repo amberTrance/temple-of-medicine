@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <section style={{ marginBottom: "400px" }}>
-        <h1>Investigating the beautiful realm of the unconscious through dreams</h1>
+        <h1>
+          Investigating the beautiful realm of the unconscious through dreams
+        </h1>
 
         <div className={styles.buttons}>
           <Button href="/dreams">Interpretation examples</Button>
@@ -27,10 +29,10 @@ export default function Home() {
 
         <p>
           If you would like me to interpret your dreams over a longer period,
-          contact me using the button above (at mind.edifice@gmail.com). I don't
-          do single dream interpretations because I don't find it satisfying.
-          Typically the most meaning can be derived from conversation and
-          watching the unconscious over a longer period to observe the patterns.
+          contact me using the button above. I don't do single dream
+          interpretations because I don't find it satisfying. Typically the most
+          meaning can be derived from conversation and watching the unconscious
+          over a longer period to observe the patterns.
         </p>
       </section>
 

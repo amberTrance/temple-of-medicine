@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 
 import Navbar from "@/app/layout/navbar/navbar";
+import Footer from "@/app/layout/footer";
 import "./globals.css";
 import "./colors.css";
 import { Providers } from "@/app/components/providers";
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <main>{children}</main>
+          <Footer />
         </Providers>
       </body>
     </html>
