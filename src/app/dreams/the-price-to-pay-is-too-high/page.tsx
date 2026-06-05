@@ -126,13 +126,13 @@ export default function ThePriceToPayIsTooHigh() {
               The dream setting is in Japan, in a store, and the only other
               dream character outside the ego is the asian man.{" "}
               A{" "}
-              <a href="/symbols?word=store" className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
+              <a href={`${prefix}/symbols?word=store`} className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
                 store
               </a>{" "}
               in a dream represents a place where a transaction between the conscious
               mind and the unconscious takes place. The square shape of the
               room, further amplified by the{" "}
-              <a href="/symbols?word=four" className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
+              <a href={`${prefix}/symbols?word=four`} className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
                 four
               </a>{" "}
               chairs, point to the symbolism
