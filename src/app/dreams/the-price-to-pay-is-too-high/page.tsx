@@ -77,9 +77,7 @@ export default function ThePriceToPayIsTooHigh() {
         <div className={`${styles.dreamEntry} ${styles.leftCol}`}>
           <p className={`yellow ${styles.dreamDate}`}>20.04.2022</p>
           <p>
-            <Locale>
-              I was in Japan in an elegant store and{" "}
-            </Locale>
+            <Locale>I was in Japan in an elegant store and </Locale>
             <Exposition>wanted to buy cigarettes.</Exposition>
             <Locale>
               There was a square in the center and 4 seats at the corners. By
@@ -124,25 +122,33 @@ export default function ThePriceToPayIsTooHigh() {
             <p className={`${styles.sectionLabel} blue`}>Locale</p>
             <p>
               The dream setting is in Japan, in a store, and the only other
-              dream character outside the ego is the asian man.{" "}
-              A{" "}
-              <a href={`${prefix}/symbols?word=store`} className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
+              dream character outside the ego is the asian man. A{" "}
+              <a
+                href={`${prefix}/symbols?word=store`}
+                className={styles.symbolLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 store
               </a>{" "}
-              in a dream represents a place where a transaction between the conscious
-              mind and the unconscious takes place. The square shape of the
-              room, further amplified by the{" "}
-              <a href={`${prefix}/symbols?word=four`} className={styles.symbolLink} target="_blank" rel="noopener noreferrer">
+              in a dream represents a place where a transaction between the
+              conscious mind and the unconscious takes place. The square shape
+              of the room, further amplified by the{" "}
+              <a
+                href={`${prefix}/symbols?word=four`}
+                className={styles.symbolLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 four
               </a>{" "}
-              chairs, point to the symbolism
-              of wholeness, of totality, representative of the Self. However,
-              the connection with a villain character suggests to us that we are
-              confronted with a dark side of the Self. The Self turns negative
-              when the ego attitude is too contrary to that of the unconscious.
-              The initial setting of the dream points to the current psychic
-              attitude, which here shows an attitude that seeks excitement and
-              novelty.
+              chairs, point to the symbolism of wholeness, of totality,
+              representative of the Self. However, the connection with a villain
+              character suggests to us that we are confronted with a dark side
+              of the Self. The Self turns negative when the ego attitude is too
+              contrary to that of the unconscious. The initial setting of the
+              dream points to the current psychic attitude, which here shows an
+              attitude that seeks excitement and novelty.
             </p>
           </div>
 
@@ -186,127 +192,251 @@ export default function ThePriceToPayIsTooHigh() {
         <div className={`${styles.dreamEntry} ${styles.leftCol}`}>
           <p className={`yellow ${styles.dreamDate}`}>11.04.2023</p>
           <p>
-            Me and my girlfriend were going to meet midway on a street, for a
-            drink. When we met, she asked me if I had my wallet. I said yes. We
-            entered a bar but it turned out to be my grandparent's house.
-            Inside, I asked the bartender for two beers. He said it will be 30€
-            with an Italian accent. I found it weird but didn't really
-            understand at first (my mind was lost: did he mean 3 or 30?). I gave
-            him a bill of 1000 czk (green like the ones of 2000). He went to the
-            other room to find the change, the room in which my grandmother
-            keeps her money. After some time, I was so puzzled and realized the
-            price. So I told Ana: « I won't pay 30€ for 2 beers ». I climbed the
-            stairs of the house, and the guy was closing a box on the wardrobe.
-            He was so surprised to see me here that he made a move to jump
-            through the window. I screamed: « Ana, open the door! » so that it
-            could be possible to catch him from outside but managed to catch him
-            before he jumped. I woke up and my interpretation was that he had a
-            gun in the box.
+            <Locale>
+              Me and my girlfriend were going to meet midway on a street,
+            </Locale>
+            <Exposition>
+              for a drink. When we met, she asked me if I had my wallet. I said
+              yes.
+            </Exposition>{" "}
+            <Locale>
+              We entered a bar but it turned out to be my grandparent's house.
+              The house was dark and the italian man and overall atmosphere
+              reminds me of the italian mafia. Inside, I asked the bartender
+            </Locale>
+            <Exposition>
+              {" "}
+              for two beers. He said it will be 30€ with an Italian accent. I
+              found it weird but didn't really understand at first (my mind was
+              lost: did he mean 3 or 30?). I gave him a bill of 1000 czk (green
+              like the ones of 2000). He went to the other room to find the
+              change, the room in which my grandmother keeps her money. After
+              some time, I was so puzzled and realized the price. So I told my
+              girlfriend: « I won't pay 30€ for 2 beers ». I climbed the stairs
+              of the house, and the guy was closing a box on the wardrobe.
+            </Exposition>{" "}
+            <Peripateia>
+              He was so surprised to see me here that he made a move to jump
+              through the window. I screamed to my girlfriend: « Open the door!
+              » so that it could be possible to catch him from outside
+            </Peripateia>{" "}
+            <Lysis>
+              but managed to catch him before he jumped. I woke up and my
+              interpretation was that he had a gun in the box.
+            </Lysis>
           </p>
         </div>
         <div className={styles.rightCol}>
           <h3 className="yellow">Second dream</h3>
-          <p>
-            The dreamer is meeting midway with his girlfriend. In relationship
-            terms this would mean that they both sacrifice equally for their
-            relationship. She then asks him if he has his wallet, if he has
-            money. Money in a dream means libido. Then they enter a bar that
-            turned out to be the grandparents house. The dreamer had very
-            positive associations to the grandparents house. When he was a boy,
-            he would meet his grandmother after school and she would buy him
-            pokemon cards. In the present day he would often nostalgically
-            return to those memories.
-          </p>
-          <p>
-            It is interesting then to note that the unconscious takes this
-            image, the grandparents house, and gives to it an ominous feeling.
-            In the dream the house was dark and the italian man and overall
-            atmosphere reminded him of the italian mafia. This tells us that
-            those lofty, beautiful feelings are hiding a mother complex. A
-            hidden desire to remain a child and avoid the responsibilities of
-            adulthood. And here we see that when the dreamer takes his
-            relationship to such a place, the consequences are bad.
-          </p>
-          <p>
-            The dreamer associated drinks with intimacy, because when you drink
-            you open up and share a lot. So here he wants to share a moment with
-            his lover but the italian asks for 30 euros. But not only the drink
-            is overpriced, the italian tries to run away with the money. There
-            is however a moment of insight when the dreamer chases the italian.
-            Here the italian is taken by surprise and attempts to jump out the
-            window. What would this mean in psychological terms? That at the
-            moment when the dreamer is about to realize his error, he becomes
-            unconscious again and keeps on acting under the influence of the
-            shadow figure with no recognition of his error. So the unconscious
-            says: catch it before it runs away. Become aware that it's your
-            mother complex that makes you feel that it costs too much to be in
-            an intimate relationship. The dreamer wakes up before he catches the
-            thief.
-          </p>
+          <p className={styles.associationsLabel}>Dreamer Associations</p>
+          <ul className={styles.associations}>
+            <li className={styles.associationItem}>
+              <span className="yellow">grandparents house</span> — very positive
+              associations. When he was a boy, he would meet his grandmother
+              after school and she would buy him{" "}
+              <span className="yellow">pokemon cards</span>. In the present day
+              he would often nostalgically return to those memories.
+            </li>
+            <li className={styles.associationItem}>
+              <span className="yellow">drinks</span> — intimacy, because when
+              you drink you open up and share a lot
+            </li>
+          </ul>
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+            <p>
+              In this dream, the characters are the dreamer, his girlfriend and
+              the bartender. The theme of the dream, which is having a drink
+              with the girlfriend in the bar suggests that the psychic situation
+              refers to the dreamer's relationship. The bar turns out to be the
+              grandparents house, but rather than being a cheerful place, the
+              unconscious depicts it as a dark, dangerous place.
+            </p>
+          </div>
+
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+            <p>
+              That the goal of the meeting is intimacy and sharing, reminds us
+              of the first dream. Drinking in a bar is what you usually do in
+              the first stages of a mature relationship, rather than the later
+              ones. The later stages presuppose committment and building
+              something together, rather than mere enjoyment of feelings and
+              emotions together. In the first dream the goal was to purchase
+              cigarettes and the location of the dream merely alluded to the
+              childhood fantasies through the pokemon villain's chair. In this
+              dream, as it often happens, there is more than an allusion, and
+              the setting itself becomes the grandparents house itself. The
+              unconscious's opinion about the dreamer's tendency to remain stuck
+              in those times of bliss and simple enjoyment are made very clear
+              by the unconscious's painting of the house as dark and dangerous.
+              What follows is an exact repetition of the first dream. The
+              bartender asks for a very high price, the dreamer does not want to
+              pay and the exchange does not happen.
+            </p>
+          </div>
+
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+            <p>
+              {" "}
+              The bartender tries to run away with the{" "}
+              <a
+                href={`${prefix}/symbols?word=money`}
+                className={styles.symbolLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                money
+              </a>
+              . How can we interpret this? We can interpret this as a form of
+              depression. The dreamer tries to have a relationship that is
+              casual, pleasant, lacking any responsibility and idyllic like the
+              childhood times. But since this is a form of regression, and since
+              the unconscious strives for growth, the punishment is this loss of
+              energy.
+            </p>
+          </div>
+
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+            <p>
+              In this particular dream the ego catches the bartender before he
+              escapes. The lysis can indicate what we do or what we should do.
+              It is up for us to determine which one it is. I would say that
+              here we are shown what the dreamer is supposed to do and we later
+              see, he does not. To catch the bartender would mean to understand
+              and integrate this shadow figure. Our unconscious turns a negative
+              face only because we fail to understand its motives.
+            </p>
+          </div>
         </div>
 
         {/* Row 3 */}
         <div className={`${styles.dreamEntry} ${styles.leftCol}`}>
           <p className={`yellow ${styles.dreamDate}`}>22.04.2023</p>
           <p>
-            I was with Ana at my place in the bedroom. We heard a noise. A big
-            man has opened the room's door. I asked him who he was and he said
-            that he was living here from today. He was saying that Ana shouldn't
-            live here, that it was illegal. I told him that she didn't live here
-            (because she didn't). He went to the other room that had completely
-            changed. There was big furniture now in the room (a wardrobe, a
-            table, he even put a clock on the wall). I asked him who he was. He
-            said that he was coming from North-East Italy, I thought that it
-            must be close to Slovenia. It seems that he wanted to live here so I
-            was looking for my contract and I was trying to call my landlord in
-            order to make him understand that it wasn't possible (and I didn't
-            want to live with him).
+            <Locale>
+              I was with my girlfriend at my place in the bedroom.
+            </Locale>{" "}
+            <Exposition>We heard a noise.</Exposition>{" "}
+            <Locale>A big man</Locale>
+            <Exposition>
+              {" "}
+              has opened the room's door. I asked him who he was and he said
+              that he was living here from today. He was saying that my
+              girlfriend shouldn't live here, that it was illegal. I told him
+              that she didn't live here (because she didn't). He went to the
+              other room that had completely changed. There was big furniture
+              now in the room (a wardrobe, a table, he even put a clock on the
+              wall). I asked him who he was. He said that he was coming from
+              North-East Italy, I thought that it must be close to Slovenia.
+            </Exposition>{" "}
+            <Peripateia>
+              It seems that he wanted to live here so I was looking for my
+              contract and I was trying to call my landlord in order to make him
+              understand that it wasn't possible (and I didn't want to live with
+              him).
+            </Peripateia>
           </p>
         </div>
         <div className={styles.rightCol}>
           <h3 className="yellow">Third dream</h3>
-          <p>
-            The setting of this dream is an intimate moment with the partner.
-            And here we meet again the italian man. This time he is much more
-            powerful than in the previous dream. He takes over the house, moves
-            in, and declares the girlfriend should not be here because she does
-            not belong. That he takes over the house means that the dreamer is
-            possessed by this shadow figure.
-          </p>
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+            <p>
+              The problem presented here happens in the{" "}
+              <a
+                href={`${prefix}/symbols?word=bedroom`}
+                className={styles.symbolLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                bedroom
+              </a>
+              , with the girlfriend, in their sphere of intimacy and privacy.
+            </p>
+          </div>
+
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+            <p>
+              The private sphere gets intruded upon, something comes in between
+              the dreamer and his partner. That something is the unconscious
+              factor that had to be understood and integrated in the first and
+              second dreams, but was not. To catch the bartender before he gets
+              out of the window is to interrogate him in order to understand
+              what he wants. We know that in dreams, one action comes as a
+              consequence of another. First, the unconscious asks for a high
+              price to be paid for cigarettes - the dreamer then runs away and
+              is being persecuted by secret police. Second, the unconscious asks
+              for a high price for drinks - the dreamer does not want to pay -
+              the unconscious persecutes the dreamer.
+            </p>
+          </div>
+
+          <div className={styles.interpretationSection}>
+            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+            <p>
+              In this dream, we see that this shadow factor takes over the
+              psyche of the dreamer against his will. The shadow refurnishes the
+              house, which is to say, it's changing the dreamer's thoughts and
+              values and perhaps even his perception of time as symbolized by
+              the clock. This reflected precisely in the dreamer's own attitude
+              towards his relationship with his girlfriend, where he would be
+              hot and cold, rejecting his partner and at times even proclaiming
+              that they are not together. The dreamer attempts to take back his
+              psyche by appealing to a higher power, the landlord, but there is
+              no lysis, the dream ends up in a cliffhanger.
+            </p>
+          </div>
         </div>
       </div>
 
       <div className={styles.synthesis}>
         <h3 className="yellow">Synthesis</h3>
         <p>
-          In the first dream, we have the theme of finding excitement, meaning
-          and wholeness in an unhealthy way that is punished by the unconscious.
-          The punishment consists in asking the dreamer to pay for his behaviour
-          a price that seems untenable and the chase which represents psychic
-          invasions that are usually neurotic behaviours. We know from the life
-          of the dreamer that he would frequently feel depressed and empty. The
-          dreamer is thus trying to find meaning without putting in the effort,
-          easy like smoking a ciggy.
+          Here we can see a very good illustration of how the unconscious
+          repeats the same message, even years later, when the problem addressed
+          remains unsolved.
         </p>
         <p>
-          This tendency of looking for pleasure and meaning in easy ways and not
-          put in the effort required from adult life appears again in the second
-          dream, where the beloved childhood house is shown in negative light by
-          the unconscious. Here again the unconscious steals from the dreamer.
-          If the dreamer wants to have a meaningful and intimate relationship
-          with his girlfriend, he needs to grow up and leave behind the fantasy
-          of the grandmother house where everything was perfect and sweet and
-          there were no adult responsibilities.
+          The problem here is that the dreamer wishes to live life in the same
+          inconsequential manner in which he did as a child. We can deduce this
+          from the type of exchange that occurs between the ego and the
+          unconscious, and the location in which it takes place.
         </p>
         <p>
-          The third dream is an amplification of what happened in the second
-          dream. The italian was not caught. The dreamer did not realize the
-          consequence on his relationship of remaning infantile. The childhood
-          dreams take over and the shadow side grows proportionally bigger. The
-          dreamer is now having doubts about his relationship and feels that
-          it's perhaps not what he wants. The dark side of the childhood fantasy
-          is affecting not only the relationship but him as well. He is no
-          longer master of his own house.
+          In the first dream, the location with the pokemon villain's chair
+          shows to us that in his psyche, the dreamer still lives in those
+          childhood images. The action of asking for cigarettes (something to
+          make me feel full when I am empty) happens in that psychic state
+          connected to childhood fantasies.
+        </p>
+        <p>
+          The second dream further emphasizes the location and paints it as
+          dark. Here we also see how the dreamer's attitude spills into the
+          relationship aspect as well. The relationship is brought into the
+          grandparent home, where the goal sought by the dreamer is not a mature
+          relationship but a fantasy fulfillment.
+        </p>
+        <p>
+          {" "}
+          The punishment of the Self for the ego's attempt to remain infantile,
+          is loss of libido, states of emptiness and depression, and a loss of
+          control over one's own thoughts and behaviours. For example, trying to
+          create a romantic relationship that is based strictly on romantic
+          exchange such as drinking in a bar and sharing, is synonymous with the
+          life of a child that merely enjoys the realm of fantasy in Pokemon
+          cards with no consequence to real life. That the dreamer would begin
+          to feel repulsed, is no different than how a parent would try to deter
+          a child from chewing her nails by putting a bitter substance on the
+          fingers. The unconscious attitude is compensatory, trying to stir the
+          dreamer towards the life that would lead to the fulfillment of the
+          personality and push it out of stagnation. But until the dreamer is
+          prepared to leave behind the mother's womb, and to face reality with
+          all its responsibilities, consequences and pains, the unconscious will
+          continue to apply corrective measures.
         </p>
       </div>
     </div>
