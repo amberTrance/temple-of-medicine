@@ -27,7 +27,7 @@ export default function BornIntoWeakness() {
         <p>
           When we do not pick our food from the rich ground that replenishes
           itself, but through a piece of paper, then we are their slaves. We
-          have to dance the way they sing and we learn than in order to survive
+          have to dance the way they sing and we learn that in order to survive
           we need the paper, and to make the paper we need a profession. After a
           few years of assiduous work we can afford to buy a house, for the
           lucky ones! But during all that time our personal dreams and our
@@ -79,7 +79,7 @@ export default function BornIntoWeakness() {
           unique direction. These people that become very successful speaking
           about the liberation of the human soul on YouTube, playing the
           algorithm using click-bait titles, offering expensive trainings or
-          putting an add every 10 minutes of their video presentations, these
+          putting an ad every 10 minutes of their video presentations, these
           people are still actors in the grand play that enslaves us all. The
           only difference is that they hold a privileged role. You can feel in
           their drive for money, success and influence that somewhere on the

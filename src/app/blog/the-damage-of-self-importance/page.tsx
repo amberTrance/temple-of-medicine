@@ -89,7 +89,7 @@ export default function TheDamageOfSelfImportance() {
 
         <p>
           Then I encountered Carl Jung’s work and it completely changed my life.
-          It is from him that I have heard fom the first time about the Self,
+          It is from him that I have heard for the first time about the Self,
           the inner God that expresses itself through us. He would make the
           point that our little ego is nothing, that all energy, power and
           creation comes from something beyond us, greater than us. That we
@@ -114,7 +114,7 @@ export default function TheDamageOfSelfImportance() {
 
         <p>
           I have heard many wonderful artists speak about it. I recall in one
-          video hearing John Frusciante, the guitar player of Red Hot Chilly
+          video hearing John Frusciante, the guitar player of Red Hot Chili
           Peppers, saying that there is no such thing as ‘Kurt Cobain’ (insert
           any artist name), there is only art, music. He deeply understood that
           it’s not about the person, not about the ego, that creation is

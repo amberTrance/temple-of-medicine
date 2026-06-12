@@ -213,7 +213,7 @@ export default function ThePriceToPayIsTooHigh() {
               That the goal of the meeting is intimacy and sharing, reminds us
               of the first dream. Drinking in a bar is what you usually do in
               the first stages of a mature relationship, rather than the later
-              ones. The later stages presuppose committment and building
+              ones. The later stages presuppose commitment and building
               something together, rather than mere enjoyment of feelings and
               emotions together. In the first dream the goal was to purchase
               cigarettes and the location of the dream merely alluded to the

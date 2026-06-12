@@ -38,7 +38,7 @@ export default function HidingFromMom() {
           <h2 className="blue">Context</h2>
 
           <p>
-            The dreamer is a male of 30. He is temporary living at his parents and he is about to meet his girlfriend with 
+            The dreamer is a male of 30. He is temporarily living at his parents and he is about to meet his girlfriend with 
             whom he wants to rent a home.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function HidingFromMom() {
           </p>
 
           <p>
-            Next, the dreamer is in a state of confussion as to the ways in which he should get to Prague. For this he asks for the
+            Next, the dreamer is in a state of confusion as to the ways in which he should get to Prague. For this he asks for the
             help of the poker players who give him good advice. The poker players represent an aspect of the dreamer that is able to
             exert emotional control when needed and to deal with difficult situations. This is meaningful because in his personal life the
             dreamer would sometimes get emotionally overwhelmed.
@@ -131,7 +131,7 @@ export default function HidingFromMom() {
 
           <p>
             We concluded together that both his dreams refer to hesitations towards going fully into life and maturing, and that 
-            the pants and the mother are synonyms refering to a mother complex. Our interpretation was confirmed the next day, when he dreamed that he has a fight
+            the pants and the mother are synonyms referring to a mother complex. Our interpretation was confirmed the next day, when he dreamed that he has a fight
             with his mother that is so bad, one of those fights that lead to a permanent split. In mythical imagery this would be the same 
             as slaying the dragon. It's important to note though that even if the dreamer sees himself doing the right thing, this does not mean 
             yet that the deed is done. He needs to focus on the problem and tackle it actively, otherwise it's likely that the same dream 

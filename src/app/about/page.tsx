@@ -47,7 +47,7 @@ export default function About() {
             </p>
 
             <p>
-              Unfortunately, the failed experiments made me into a convicted
+              Unfortunately, the failed experiments made me into a convinced
               atheist (and I dreamed of Virgin Mary telling me that I am
               departing from my path, which I interpreted as a mere brain
               activity). 7 more years had to pass until a friend showed me

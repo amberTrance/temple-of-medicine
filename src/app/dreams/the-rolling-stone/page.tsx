@@ -95,7 +95,7 @@ export default function TheRollingStone() {
             association to usb sticks was virtual reality. So this union with
             the anima gives birth to something unreal, or to the loss of one's
             own self. Furthermore, blowing up the wife is a form of inflation.
-            The dreamers' fantasies of various possibilities in life are
+            The dreamer's fantasies of various possibilities in life are
             inflated, as in, they are overly romanticized and unrealistic.
           </p>
 
@@ -116,7 +116,7 @@ export default function TheRollingStone() {
             Below is an excerpt from Richard Willhelm's book "The Secret 
             of the Golden Flower" which illustrates the problem of following 
             the anima and losing the possibility of individuation as 
-            consquence.
+            consequence.
           </p>
 
           <p>
