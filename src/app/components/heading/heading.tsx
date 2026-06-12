@@ -9,7 +9,7 @@ import { prefix } from "../../../../constants";
 type HeadingProps = {
   alt: string;
   date: string;
-  position?: "top" | "center" | "bottoms";
+  position?: string;
   title: string;
   src: string;
 };
@@ -46,16 +46,16 @@ export const Heading = ({
         <p style={{ fontWeight: "bold", fontSize: "18px" }}>Back to overview</p>
       </button>
 
-      <h1 style={{ margin: "0px" }}>{title}</h1>
+      <h1 style={{ margin: "12px 0 0", fontSize: "2.4rem", lineHeight: 1.15 }}>{title}</h1>
 
-      <p style={{ fontWeight: "bold" }}>{date}</p>
+      <p style={{ fontWeight: "bold", margin: "8px 0 0" }}>{date}</p>
 
       <div
         style={{
-          aspectRatio: "4/3",
+          aspectRatio: "16/7",
           position: "relative",
           width: "100%",
-          marginBottom: "40px",
+          margin: "20px 0 52px",
         }}
       >
         <Image
@@ -66,8 +66,7 @@ export const Heading = ({
           style={{
             objectFit: "cover",
             objectPosition: position,
-            margin: "20px 0px",
-            borderRadius: "5px",
+            borderRadius: "6px",
           }}
         />
       </div>

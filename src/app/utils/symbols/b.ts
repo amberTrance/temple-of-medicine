@@ -13,6 +13,27 @@ const b: Symbol[] = [
     ],
   },
   {
+    slug: "bear",
+    word: "Bear",
+    citations: [
+      {
+        text: "On this early cultural level, magical animals are often the symbols of the Self. In the North, it is usually the bear who is the embodiment of the Self for the shaman, because he is a great nature deity. The shaman acquires his healing power and creativity from the bear. In Africa, lions and elephants represent the Self, and sometimes also other magical animals who embody the supreme divine power of the psyche and nature. From the fact that the Self appears in animal form in the dreams and visions of medicine men and creative individuals, it is clear that it is first perceived as a purely instinctive unconscious force, greater and more powerful than the ego but entirely unconscious. It embodies the complete wisdom of nature yet does not possess the light of human consciousness.",
+        author: "Marie-Louise von Franz",
+        source: "Archetypal Dimensions of the Psyche",
+      },
+      {
+        text: "In our dream, too, we can put the man covered with hair in analogy to a bear, which plays a great role in children's imaginations. For thousands of years, our ancestors saw the bear as something threatening and dangerous, and it was one of the worst enemies. These impressions have been kept as such, and have an effect in the collective unconscious. There is a report about a belief in Scandinavian literature that very old bears had something devilish within them, and that they could not be killed with a normal shot, but only with a silver bullet. In this connection we have also to draw attention to the connection between the bear and the Berserker. The Bear Skinner is a vague allusion to it. The notion of the soul is connected to the fur, the skin, the shirt, the outer form, for shirt (e.g., the swan shirt) and fur stand for a great potential of transformation in the Teutonic tradition. Still today we use expressions such as aus der Haut fahren, an allusion to the bear, the skin of the Berserker. The bearskin was taken off in the evening, when other people slept; it gave an enormous increase in strength, the respective person got beside himself with rage, a raging demon took possession of him. The heroic song of King Rolf Krake, from the Danish house of Skyoldung, tells of such a berserkergang. In the werewolf legend, too, the pelt of the wolf gives enormous strength. Summarizing the amplification of the \"man covered with hair,\" we get the following result: something children are afraid of, an uncanny and colossal power that can overwhelm you and make you so enraged as to lose consciousness; a magic force that overcomes you all of a sudden.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.106",
+      },
+      {
+        text: "Yes, the female instinctual world, that's what begins there. There the child starts to become a female, so to speak. In later life, too, whenever something is about the female instinctual world, these feline animals reappear, or bears, or snakes. In Switzerland, after all, we had a bear goddess. In the Historical Museum you can see a dea arcto. Long before the Berne Zofingia, there was a Gallic-Roman bear cult in Berne. The believers of Artemis call themselves arktoi, the bears. The bear represents the female instinctual world.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.415",
+      },
+    ],
+  },
+  {
     slug: "beard",
     word: "Beard",
     citations: [
@@ -53,6 +74,17 @@ const b: Symbol[] = [
         text: "These animals get at you; they put their teeth into your flesh; and that is painful. So the dream suggested that one can't avoid a certain painful interval; it has to happen. These animals must get at you, and that is exactly what the dreamer tried to escape. He did not know that he was already completely swallowed by the animal, by an unconscious condition. He was afraid of becoming conscious of the fact that he had already been bitten, so he had to learn to expose himself consciously to the assault of the animal. The dreamer needs to learn to expose himself to the knowledge and to the understanding that he is emotional in a certain way; that he has certain instinctual impulses.",
         author: "Carl Jung",
         source: "Dream Symbols of the Individuation Process, p.228",
+      },
+    ],
+  },
+  {
+    slug: "being-chased",
+    word: "Being Chased",
+    citations: [
+      {
+        text: "A persecutory dream always means: this wants to come to me. When you dream of a savage bull, or a lion, or a wolf pursuing you, this means: it wants to come to you. You would like to split it off, you experience it as something alien—but it just becomes all the more dangerous. The urge of what had been split off to unite with you becomes all the stronger.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.19",
       },
     ],
   },

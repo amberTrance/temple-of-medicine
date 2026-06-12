@@ -80,6 +80,17 @@ const f: Symbol[] = [
     ],
   },
   {
+    slug: "fish",
+    word: "Fish",
+    citations: [
+      {
+        text: "Many people interact playfully with their unconscious. They are like fishermen who daily fish in the unconscious and even \"nourish\" themselves on it: they take all kinds of good and evil things from the treasure of the unconscious...",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.333",
+      },
+    ],
+  },
+  {
     slug: "flood",
     word: "Flood",
     citations: [

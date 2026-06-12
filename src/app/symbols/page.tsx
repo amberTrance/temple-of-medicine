@@ -30,13 +30,17 @@ export default function Symbols() {
         <div className={styles.wordList}>
           {filtered.length > 0 ? (
             filtered.map((symbol) => (
-              <button
+              <a
                 key={symbol.slug}
+                href="#symbol-detail"
                 className={`${styles.wordButton} ${selected.slug === symbol.slug ? styles.active : ""}`}
-                onClick={() => setSelected(symbol)}
+                onClick={(e) => {
+                  if (window.innerWidth > 600) e.preventDefault();
+                  setSelected(symbol);
+                }}
               >
                 {symbol.word}
-              </button>
+              </a>
             ))
           ) : (
             <p className={styles.noResults}>No symbols found.</p>
@@ -45,7 +49,7 @@ export default function Symbols() {
       </nav>
 
       <div>
-        <h2 className={styles.detailHeading}>{selected.word}</h2>
+        <h2 id="symbol-detail" className={styles.detailHeading}>{selected.word}</h2>
         {selected.citations.map((citation, i) => (
           <div key={i} className={styles.citation}>
             <p className={`${styles.citationText}`}>"{citation.text}"</p>

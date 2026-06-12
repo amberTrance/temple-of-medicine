@@ -24,6 +24,27 @@ const c: Symbol[] = [
     ],
   },
   {
+    slug: "cave",
+    word: "Cave",
+    citations: [
+      {
+        text: "The descent into the unconscious is always dangerous. It can be visualized as being devoured by the whale-dragon, as going down into a dark cave or into the castle of the evil magician. We go there to get something. As a rule, it is a valuable treasure or a marvelous precious stone. Or it is a virgin who must be saved. In each case, this is about bringing up an archetypal value. At first, this is done in a certain degree of unconsciousness. We do not know exactly what we caught fishing in the depths.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.162",
+      },
+      {
+        text: "The legend has the following meaning: Anyone who gets into that cave, that is to say into the cave which everyone has in himself, or into the darkness that lies behind consciousness, will find himself involved in an—at first—unconscious process of transformation.",
+        author: "Carl Gustav Jung",
+        source: "The Archetypes of the Collective Unconscious, p.135",
+      },
+      {
+        text: "The girl is driven off into the woods, where she dwells without food or drink—in the depths of the unconscious in its aspect of nature, pure and without connection with human forms of life. Like an animal, she lives in a cave—a mother symbol stemming from an even deeper, more archaic level of the unconscious, something like the lowest depths of the psyche, where the suffering is so great that, for that reason, suffering can no longer reach one.",
+        author: "Marie-Louise von Franz",
+        source: "Archetypal Dimensions of the Psyche",
+      },
+    ],
+  },
+  {
     slug: "child",
     word: "Child",
     citations: [
@@ -73,6 +94,17 @@ const c: Symbol[] = [
         text: "A skin, or garment, indicates the modus, or the way, in which one appears, or it can be the mask, or the persona—a skin or garment under which you hide. I can appear as I am, or differently from what I am, in which case the garment begins to be a mask, the persona I want to show the world. The “naked truth” is the idea at the bottom of many mystical ceremonies in which the participants appear naked.",
         author: "Marie-Louise von Franz",
         source: "The Feminine in Fairy Tales, p.271",
+      },
+    ],
+  },
+  {
+    slug: "cow",
+    word: "Cow",
+    citations: [
+      {
+        text: "Let us now concern ourselves with the deeper mythological meaning of the cows. There is a lot of evidence that cows are mother symbols. In Indian religion, cows are extremely highly revered. Not only they themselves, but also their five products: milk, quark, cheese, urine, and manure are holy, and have a cleansing effect on man. Earth itself was conceived as a cow by the Indians, from which the creator Prtu milked everything edible. Then came, according to their conception, all the other living creatures, including the mountains, to milk this primal cow for the milk they need. In Egyptian mythology, heaven is often thought of as a cow, the so called sky-goddess Hathor, bearing the sun disk between her horns. She is the heavenly mother of the sun god, who recreates himself in the evening by entering into her mouth, to rise again in the morning as his own son.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.91",
       },
     ],
   },

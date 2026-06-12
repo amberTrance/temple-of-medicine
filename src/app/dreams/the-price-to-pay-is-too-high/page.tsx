@@ -1,10 +1,8 @@
-"use client";
-
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { FaArrowLeft } from "react-icons/fa6";
 import { prefix } from "../../../../constants";
 import { DreamsData } from "@/app/utils/articleData";
+import { Heading } from "@/app/components/heading/heading";
+import { Association } from "@/app/components/association/association";
+import { SymbolLink } from "@/app/components/symbolLink/symbolLink";
 import styles from "./page.module.css";
 import {
   Locale,
@@ -14,34 +12,14 @@ import {
 } from "@/app/components/narrative/narrative";
 
 export default function ThePriceToPayIsTooHigh() {
-  const router = useRouter();
-
   return (
     <div className={styles.container}>
-      <button
-        className={`f-row ${styles.backButton}`}
-        onClick={() => router.back()}
-      >
-        <FaArrowLeft size="18px" />
-        <p style={{ fontWeight: "bold", fontSize: "18px" }}>Back to overview</p>
-      </button>
-
-      <h1 className={styles.title}>{DreamsData.price.title}</h1>
-      <p className={styles.date}>{DreamsData.price.date}</p>
-
-      <div className={styles.heroImage}>
-        <Image
-          src={`${prefix}/${DreamsData.price.src}.jpg`}
-          alt={DreamsData.price.alt}
-          fill
-          sizes="100vw"
-          style={{
-            objectFit: "cover",
-            objectPosition: "center 35%",
-            borderRadius: "6px",
-          }}
-        />
-      </div>
+      <Heading
+        alt={DreamsData.price.alt}
+        date={DreamsData.price.date}
+        title={DreamsData.price.title}
+        src={DreamsData.price.src}
+      />
 
       <div className={styles.prose}>
         <h2 className="yellow">Dream Series</h2>
@@ -109,39 +87,19 @@ export default function ThePriceToPayIsTooHigh() {
           <h3 className="yellow">First dream</h3>
           <p className={styles.associationsLabel}>Dreamer Associations</p>
           <ul className={styles.associations}>
-            <li className={styles.associationItem}>
-              <span className="yellow">Japan</span> — exciting and a different
-              world
-            </li>
-            <li className={styles.associationItem}>
-              <span className="yellow">cigarettes</span> — they make me feel
-              full when I am empty, but they are also unhealthy and cause cancer
-            </li>
+            <Association word="Japan" association="exciting and a different world" theme="yellow" />
+            <Association word="cigarettes" association="they make me feel full when I am empty, but they are also unhealthy and cause cancer" theme="yellow" />
           </ul>
           <div className={styles.interpretationSection}>
             <p className={`${styles.sectionLabel} blue`}>Locale</p>
             <p>
               The dream setting is in Japan, in a store, and the only other
               dream character outside the ego is the asian man. A{" "}
-              <a
-                href={`${prefix}/symbols?word=store`}
-                className={styles.symbolLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                store
-              </a>{" "}
+              <SymbolLink symbol="store">store</SymbolLink>{" "}
               in a dream represents a place where a transaction between the
               conscious mind and the unconscious takes place. The square shape
               of the room, further amplified by the{" "}
-              <a
-                href={`${prefix}/symbols?word=four`}
-                className={styles.symbolLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                four
-              </a>{" "}
+              <SymbolLink symbol="four">four</SymbolLink>{" "}
               chairs, point to the symbolism of wholeness, of totality,
               representative of the Self. However, the connection with a villain
               character suggests to us that we are confronted with a dark side
@@ -230,17 +188,12 @@ export default function ThePriceToPayIsTooHigh() {
           <h3 className="yellow">Second dream</h3>
           <p className={styles.associationsLabel}>Dreamer Associations</p>
           <ul className={styles.associations}>
-            <li className={styles.associationItem}>
-              <span className="yellow">grandparents house</span> — very positive
-              associations. When he was a boy, he would meet his grandmother
-              after school and she would buy him{" "}
-              <span className="yellow">pokemon cards</span>. In the present day
-              he would often nostalgically return to those memories.
-            </li>
-            <li className={styles.associationItem}>
-              <span className="yellow">drinks</span> — intimacy, because when
-              you drink you open up and share a lot
-            </li>
+            <Association
+              word="grandparents house"
+              theme="yellow"
+              association={<>very positive associations. When he was a boy, he would meet his grandmother after school and she would buy him{" "}<span className="yellow">pokemon cards</span>. In the present day he would often nostalgically return to those memories.</>}
+            />
+            <Association word="drinks" association="intimacy, because when you drink you open up and share a lot" theme="yellow" />
           </ul>
           <div className={styles.interpretationSection}>
             <p className={`${styles.sectionLabel} blue`}>Locale</p>
@@ -281,14 +234,7 @@ export default function ThePriceToPayIsTooHigh() {
             <p>
               {" "}
               The bartender tries to run away with the{" "}
-              <a
-                href={`${prefix}/symbols?word=money`}
-                className={styles.symbolLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                money
-              </a>
+              <SymbolLink symbol="money">money</SymbolLink>
               . How can we interpret this? We can interpret this as a form of
               depression. The dreamer tries to have a relationship that is
               casual, pleasant, lacking any responsibility and idyllic like the
@@ -346,14 +292,7 @@ export default function ThePriceToPayIsTooHigh() {
             <p className={`${styles.sectionLabel} blue`}>Locale</p>
             <p>
               The problem presented here happens in the{" "}
-              <a
-                href={`${prefix}/symbols?word=bedroom`}
-                className={styles.symbolLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                bedroom
-              </a>
+              <SymbolLink symbol="bedroom">bedroom</SymbolLink>
               , with the girlfriend, in their sphere of intimacy and privacy.
             </p>
           </div>

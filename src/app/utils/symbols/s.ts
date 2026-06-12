@@ -94,6 +94,11 @@ const s: Symbol[] = [
         author: "Carl Jung",
         source: "Alchemical Studies, para.316",
       },
+      {
+        text: "In actual fact the snake is a cold-blooded creature, unconscious and unrelated. It is both toxic and prophylactic, equally a symbol of the good and bad daemon (the Agathodaemon), of Christ and the devil. Among the Gnostics it was regarded as an emblem of the brain-stem and spinal cord, as is consistent with its predominantly reflex psyche. It is an excellent symbol for the unconscious, perfectly expressing the latter's sudden and unexpected manifestations, its painful and dangerous intervention in our affairs, and its frightening effects.",
+        author: "Carl Gustav Jung",
+        source: "Symbols of Transformation, p.601",
+      },
     ],
   },
   {
@@ -131,6 +136,27 @@ const s: Symbol[] = [
         text: "The way is not straight but appears to go round in circles. More accurate knowledge has proved it to go in spirals: the dream-motifs always return after certain intervals to definite forms, whose characteristic it is to define a centre. And as a matter of fact the whole process revolves about a central point or some arrangement round a centre, which may in certain circumstances appear even in the initial dreams. As manifestations of unconscious processes the dreams rotate or circumambulate round the centre, drawing closer to it as the amplifications increase in distinctness and in scope. Owing to the diversity of the symbolical material it is difficult at first to perceive any kind of order at all. Nor should it be taken for granted that dream sequences are subject to any governing principle. But, as I say, the process of development proves on closer inspection to be cyclic or spiral. We might draw a parallel between such spiral courses and the processes of growth in plants;",
         author: "Carl Jung",
         source: "Psychology and Alchemy, para.34",
+      },
+    ],
+  },
+  {
+    slug: "stairs",
+    word: "Stairs",
+    citations: [
+      {
+        text: "Stairs mean gaining consciousness step by step; they correspond to the segmented structure of the sympathic and spinal nervous system, the single vertebrae. The ganglia are arranged in different levels, like a ladder. The stairs are the steps, the system of the rope ladder, that makes itself felt. That's the reason why we encounter these steps in all those cults dealing with developing consciousness out of unconsciousness.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.75",
+      },
+      {
+        text: "Climbing up the stairs may mean the attempt to come to a higher form of consciousness.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.60",
+      },
+      {
+        text: "When I dream, for instance, that I go down the stairs, this means: my consciousness goes down the stairs in the dream. Now what does that mean, \"down the stairs\"? My consciousness goes down into the depths of the unconscious.",
+        author: "Carl Gustav Jung",
+        source: "Children's Dreams, p.410",
       },
     ],
   },
