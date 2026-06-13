@@ -66,6 +66,17 @@ const c: Symbol[] = [
     ],
   },
   {
+    slug: "church",
+    word: "Church",
+    citations: [
+      {
+        text: "The intensity with which his childish fantasy seized upon the symbol of Cologne Cathedral corresponds to the strength of his unconscious need to find a substitute for the mother. The unconscious need is heightened still further in a case where the infantile bond could become harmful. Hence the enthusiasm with which his childish imagination took up the idea of the Church; for the Church is, in the fullest sense, a mother. We speak not only of Mother Church, but even of the Church's womb. In the ceremony known as the benedictio fontis, the baptismal font is apostrophized as \"immaculatus divini fontis uterus\"—the immaculate womb of the divine font.",
+        author: "Carl Gustav Jung",
+        source: "Two Essays on Analytical Psychology, Collected Works Volume 7",
+      },
+    ],
+  },
+  {
     slug: "circle",
     word: "Circle",
     citations: [
