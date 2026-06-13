@@ -1,9 +1,8 @@
 "use client"
-// import Link from "next/link";
-import Image from "next/image"
 import { usePathname } from 'next/navigation'
 
 import DarkModeButton from "@/app/components/darkMode";
+import { Mandala } from "@/app/components/mandala/mandala";
 import { NavbarLinks } from "@/app/layout/navbar/components/navbarLinks";
 import { landingPagePath, prefix } from "../../../../constants";
 
@@ -24,7 +23,7 @@ const Navbar = () => {
           Temple of Medicine
         </a>
 
-        <Image src={`${prefix}/leaf.png`} width={25} height={25} alt="temple" />
+        <Mandala size={32} />
       </div>
 
       <div className="f-row">

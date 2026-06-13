@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "A blog page written with the purpose of sharing insight into one's own mind through the lens of depth psychology. The content varies from dream analysis, philosophical thoughts on societal problems and much more. You can also get in contact with me for dream analysis.",
   icons: {
-    icon: `${prefix}/leaf.png`,
+    icon: `${prefix}/mandala.svg`,
   },
 };
 
