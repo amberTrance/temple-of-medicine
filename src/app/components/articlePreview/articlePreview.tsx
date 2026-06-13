@@ -26,6 +26,7 @@ export const ArticlePreview = ({
   title,
 }: ArticlePreviewProps) => {
   const [hoverClass, setHoverClass] = useState("");
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   // --- RENDER ---
 
@@ -38,11 +39,13 @@ export const ArticlePreview = ({
           onMouseLeave={() => setHoverClass("")}
         >
           <div className={`${styles.imageWrapper}`}>
+            <div className="skeleton" style={{ opacity: isImageLoaded ? 0 : 1, pointerEvents: "none" }} />
             <Image
               src={`${prefix}/${src}.jpg`}
               alt={alt}
               fill
               sizes="100vw"
+              onLoad={() => setIsImageLoaded(true)}
               style={{
                 objectFit: "cover",
                 objectPosition: "center",

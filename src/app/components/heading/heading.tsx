@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FaArrowLeft } from "react-icons/fa6";
@@ -22,6 +23,7 @@ export const Heading = ({
   src,
 }: HeadingProps) => {
   const router = useRouter();
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   // --- RETURN ---
 
@@ -58,11 +60,13 @@ export const Heading = ({
           margin: "20px 0 52px",
         }}
       >
+        <div className="skeleton" style={{ opacity: isImageLoaded ? 0 : 1, pointerEvents: "none" }} />
         <Image
           src={`${prefix}/${src}.jpg`}
           alt={alt}
           fill
           sizes="100vw"
+          onLoad={() => setIsImageLoaded(true)}
           style={{
             objectFit: "cover",
             objectPosition: position,
