@@ -19,11 +19,9 @@ const Navbar = () => {
         }`}
       >
         {/** Quick fix for github specific bug*/}
-        <a className="logo" href={landingPagePath}>
-          Temple of Medicine
+        <a href={landingPagePath}>
+          <Mandala size={44} />
         </a>
-
-        <Mandala size={32} />
       </div>
 
       <div className="f-row">

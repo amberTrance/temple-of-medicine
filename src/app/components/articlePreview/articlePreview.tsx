@@ -52,9 +52,9 @@ export const ArticlePreview = ({
           </div>
         </div>
 
-        <p style={{ fontSize: "22px" }}>{date}</p>
+        <p style={{ fontSize: "18px" }}>{date}</p>
 
-        <h2>{title}</h2>
+        <h2 style={{ fontSize: "1.4rem" }}>{title}</h2>
       </Link>
     </div>
   );

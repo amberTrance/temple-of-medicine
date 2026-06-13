@@ -46,7 +46,7 @@ export const Heading = ({
         <p style={{ fontWeight: "bold", fontSize: "18px" }}>Back to overview</p>
       </button>
 
-      <h1 style={{ margin: "12px 0 0", fontSize: "2.4rem", lineHeight: 1.15 }}>{title}</h1>
+      <h1 style={{ margin: "12px 0 0", fontSize: "2.4rem", lineHeight: 1.15, fontWeight: 400 }}>{title}</h1>
 
       <p style={{ fontWeight: "bold", margin: "8px 0 0" }}>{date}</p>
 

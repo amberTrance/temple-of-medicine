@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import Head from "next/head";
 
 import Navbar from "@/app/layout/navbar/navbar";
@@ -9,8 +9,8 @@ import "./colors.css";
 import { Providers } from "@/app/components/providers";
 import { prefix } from "../../constants";
 
-const montserrat = Montserrat({
-  weight: "400",
+const robotoSlab = Roboto_Slab({
+  weight: ["300", "400", "700"],
   subsets: ["latin"],
   display: "swap",
 });
@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={montserrat.className}>
+      <body className={robotoSlab.className}>
         <Providers>
           <Navbar />
           <main>{children}</main>
