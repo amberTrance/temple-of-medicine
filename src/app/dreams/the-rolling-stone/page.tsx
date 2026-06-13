@@ -102,10 +102,10 @@ export default function TheRollingStone() {
               that which represents our totality and wholeness.
             </p>
             <p>
-              That the dreamer is high up with the anima on the Church, could
+              That the dreamer is high up with the anima on the church, could
               once more refer to a state of fantasy and inflation. But why is he
-              on a Church and not a tower, or a mountain? The{" "}
-              <SymbolLink symbol="church">Church</SymbolLink> stands for the
+              on a church and not a tower, or a mountain? The{" "}
+              <SymbolLink symbol="church">church</SymbolLink> stands for the
               mother, so we can read it that what sustains the dreamer and his
               fantasy of feminine perfection is the dreamer's mother complex,
               since growing up is never as perfect as the childhood fantasy. But
