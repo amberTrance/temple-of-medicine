@@ -3,6 +3,7 @@ import { DreamsData } from "@/app/utils/articleData";
 import { Heading } from "@/app/components/heading/heading";
 import { Association } from "@/app/components/association/association";
 import { SymbolLink } from "@/app/components/symbolLink/symbolLink";
+import { Section } from "@/app/components/section/section";
 import styles from "./page.module.css";
 import {
   Locale,
@@ -90,8 +91,8 @@ export default function ThePriceToPayIsTooHigh() {
             <Association word="Japan" association="exciting and a different world" theme="yellow" />
             <Association word="cigarettes" association="they make me feel full when I am empty, but they are also unhealthy and cause cancer" theme="yellow" />
           </ul>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+
+          <Section section="locale">
             <p>
               The dream setting is in Japan, in a store, and the only other
               dream character outside the ego is the asian man. A{" "}
@@ -108,10 +109,8 @@ export default function ThePriceToPayIsTooHigh() {
               dream points to the current psychic attitude, which here shows an
               attitude that seeks excitement and novelty.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               The purpose is to buy cigarettes, a means to fill up emptiness
               that is unhealthy. This exchange between the ego and the
@@ -122,10 +121,8 @@ export default function ThePriceToPayIsTooHigh() {
               pay is never enough. The libido of the dreamer gets drained more
               and more, which in real life looks like emptiness and depression.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               A conflict ensues, and the ego runs away and is chased by secret
               police. When we are being chased in dreams, our task is to turn
@@ -133,17 +130,15 @@ export default function ThePriceToPayIsTooHigh() {
               from me? The chase here results from the dreamer not wanting to
               pay the price for the cigarettes.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               Two friends get caught while the ego and another friend escape.
               Then, as it frequently happens in dreams, a second dream starts
               which continues on the theme of the first one. Here we see that
               the chase continues and there is no resolution to the problem.
             </p>
-          </div>
+          </Section>
         </div>
 
         {/* Row 2 */}
@@ -195,8 +190,8 @@ export default function ThePriceToPayIsTooHigh() {
             />
             <Association word="drinks" association="intimacy, because when you drink you open up and share a lot" theme="yellow" />
           </ul>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+
+          <Section section="locale">
             <p>
               In this dream, the characters are the dreamer, his girlfriend and
               the bartender. The theme of the dream, which is having a drink
@@ -205,10 +200,8 @@ export default function ThePriceToPayIsTooHigh() {
               grandparents house, but rather than being a cheerful place, the
               unconscious depicts it as a dark, dangerous place.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               That the goal of the meeting is intimacy and sharing, reminds us
               of the first dream. Drinking in a bar is what you usually do in
@@ -227,12 +220,9 @@ export default function ThePriceToPayIsTooHigh() {
               bartender asks for a very high price, the dreamer does not want to
               pay and the exchange does not happen.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
-              {" "}
               The bartender tries to run away with the{" "}
               <SymbolLink symbol="money">money</SymbolLink>
               . How can we interpret this? We can interpret this as a form of
@@ -242,10 +232,8 @@ export default function ThePriceToPayIsTooHigh() {
               the unconscious strives for growth, the punishment is this loss of
               energy.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               In this particular dream the ego catches the bartender before he
               escapes. The lysis can indicate what we do or what we should do.
@@ -255,7 +243,7 @@ export default function ThePriceToPayIsTooHigh() {
               and integrate this shadow figure. Our unconscious turns a negative
               face only because we fail to understand its motives.
             </p>
-          </div>
+          </Section>
         </div>
 
         {/* Row 3 */}
@@ -288,17 +276,14 @@ export default function ThePriceToPayIsTooHigh() {
         </div>
         <div className={styles.rightCol}>
           <h3 className="yellow">Third dream</h3>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          <Section section="locale">
             <p>
               The problem presented here happens in the{" "}
               <SymbolLink symbol="bedroom">bedroom</SymbolLink>
               , with the girlfriend, in their sphere of intimacy and privacy.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               The private sphere gets intruded upon, something comes in between
               the dreamer and his partner. That something is the unconscious
@@ -312,10 +297,8 @@ export default function ThePriceToPayIsTooHigh() {
               for a high price for drinks - the dreamer does not want to pay -
               the unconscious persecutes the dreamer.
             </p>
-          </div>
-
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               In this dream, we see that this shadow factor takes over the
               psyche of the dreamer against his will. The shadow refurnishes the
@@ -328,12 +311,12 @@ export default function ThePriceToPayIsTooHigh() {
               psyche by appealing to a higher power, the landlord, but there is
               no lysis, the dream ends up in a cliffhanger.
             </p>
-          </div>
+          </Section>
         </div>
       </div>
 
       <div className={styles.synthesis}>
-        <h3 className="yellow">Synthesis</h3>
+        <h2 className="yellow">Synthesis</h2>
         <p>
           Here we can see a very good illustration of how the unconscious
           repeats the same message, even years later, when the problem addressed

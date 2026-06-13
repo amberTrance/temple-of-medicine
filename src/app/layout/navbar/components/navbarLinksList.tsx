@@ -31,6 +31,19 @@ export const NavbarLinksList = ({ handleClick }: NavbarLinksListProps) => {
       <li className={styles.li}>
         <Link
           className={`${styles.navbarLinks} underline-grow ${
+            pathname === `${prefix}/archetypes` &&
+            `underline-grow-stable ${styles.navbarLinksSelected}`
+          }`}
+          href="/archetypes"
+          onClick={handleClick}
+        >
+          Archetypes
+        </Link>
+      </li>
+
+      <li className={styles.li}>
+        <Link
+          className={`${styles.navbarLinks} underline-grow ${
             pathname === `${prefix}/dreams` &&
             `underline-grow-stable ${styles.navbarLinksSelected}`
           }`}

@@ -57,6 +57,17 @@ main {
   color: #1f2028;
 }
 
+/* THEME BUTTON ICON FADE */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.theme-icon {
+  animation: fadeIn 1s ease;
+}
+
 /* THEME BUTTON */
 
 .circle-button {

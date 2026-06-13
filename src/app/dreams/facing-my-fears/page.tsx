@@ -1,6 +1,7 @@
 import { Heading } from "@/app/components/heading/heading";
 import { Association } from "@/app/components/association/association";
 import { SymbolLink } from "@/app/components/symbolLink/symbolLink";
+import { Section } from "@/app/components/section/section";
 import { DreamsData } from "@/app/utils/articleData";
 import { prefix } from "../../../../constants";
 import {
@@ -74,16 +75,14 @@ export default function FacingMyFear() {
             />
           </ul>
 
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          <Section section="locale">
             <p>
               The location is the dreamer's hometown, she is there with other
               unknown people. The other characters are the children soldiers and
               the brother.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               A UFO causes the dreamer and everyone else to panic and hide. The
               dreamer has recently moved to a new country, alone. The unknown
@@ -93,18 +92,16 @@ export default function FacingMyFear() {
               presented by the unconscious in the form of a comedy movie and
               children soldiers.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               Then the dreamer easily disarms the child soldier, showing that
               the fear can be easily defused. However, the dreamer doesn't know
               what to do with the gun and hands it over to an animus figure that
               seems to be similarly hesitating.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               Her brother, who recently traveled alone to another continent,
               represented a more confident, masculine energy to her. However,
@@ -119,7 +116,7 @@ export default function FacingMyFear() {
               by the challenge of navigating a new country, unfamiliar roads,
               and having little to no driving experience.
             </p>
-          </div>
+          </Section>
         </div>
 
         {/* Dream 2 */}
@@ -147,15 +144,13 @@ export default function FacingMyFear() {
             />
           </ul>
 
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          <Section section="locale">
             <p>
               No location is indicated. The dreamer is not present in the dream,
               the dream is watched as if it were a movie.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               The dreamer would like to go hiking but she is afraid of the
               dangers of doing it alone. A fugitive thought that she could get a
@@ -163,9 +158,8 @@ export default function FacingMyFear() {
               we see the dog devouring a{" "}
               <SymbolLink symbol="cow">cow</SymbolLink>.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               As a consequence, the bovine god figure appears, covering the
               whole horizon. It's as if the act enraged the god. If we assume
@@ -177,14 +171,13 @@ export default function FacingMyFear() {
               its milk. So we can extrapolate that this fear instinct is
               synonymous with life. We fear because we want to live.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               The encounter with this archetypal image leaves the dreamer in
               awe.{" "}
             </p>
-          </div>
+          </Section>
         </div>
 
         {/* Dream 3 */}
@@ -217,17 +210,15 @@ export default function FacingMyFear() {
         </div>
         <div className={styles.rightCol}>
           <h3 className="red">Third dream</h3>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          <Section section="locale">
             <p>
               The location brings the dreamer back to where she grew up, which
               indicates to us that the problem posed by the unconscious in this
               dream dates from back then, and still needs to be resolved. The
               characters in the dream are the brother, the ego and the fish.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               This dream came as a response to the dreamer's question from the
               previous dream with her brother: "Is my dream brother's attitude
@@ -242,24 +233,21 @@ export default function FacingMyFear() {
               fish, mirroring the real life attitude. Then the scene changes,
               and the narrative restarts in the same vein.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          </Section>
+          <Section section="locale">
             <p>
               Now we have the dreamer swimming underwater with the{" "}
               <SymbolLink symbol="fish">fish</SymbolLink>, which is to say - she
               is going in her unconscious.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               Here she tries to befriend the fish, to understand this instinct
               and relate to it.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               However, we see that the relationship does not go well. The only
               way that the fish can get close to the dreamer is by harpooning
@@ -274,9 +262,8 @@ export default function FacingMyFear() {
               small wounds would amount to ignoring the negative mental health
               effects from her focusing on her fear.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               The dreamer has the slight insight that the wounds may become
               infected and the problem would get more severe. The brother once
@@ -292,7 +279,7 @@ export default function FacingMyFear() {
               brother to keep the fish contained and to cook it with no
               sympathy.
             </p>
-          </div>
+          </Section>
         </div>
 
         {/* Dream 4 */}
@@ -367,7 +354,7 @@ export default function FacingMyFear() {
             <Association
               word="pigeon"
               theme="red"
-              association="They are not very bright. They often get run over by cars, 
+              association="They are not very bright. They often get run over by cars,
               lose a leg or both, and I've seen them as victims of evil people
                that shoot them with darts or other such awful things. They are very resilient however."
             />
@@ -380,8 +367,7 @@ export default function FacingMyFear() {
             this when she had this dream.
           </p>
 
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          <Section section="locale">
             <p>
               The cave as well as the forest are symbols of the unconscious, and
               the cave as an underground dwelling reminds us of the belly of the
@@ -391,9 +377,8 @@ export default function FacingMyFear() {
               that this is an image of life itself and of love for life. The
               dreamer is at the entrance of this forest-cave with a young man.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               When a <SymbolLink symbol="wolf">wolf</SymbolLink> appears. The
               wolf tries to come to the dreamer and the animus figure but they
@@ -407,16 +392,14 @@ export default function FacingMyFear() {
               conscious mind would not be used for illuminating but for
               subduing.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               The moment when the wolf starts running after them is the peak of
               the dream.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} purple`}>Lysis</p>
+          </Section>
+          <Section section="lysis">
             <p>
               The lysis is brought about by the appearance of the bear that
               allows the dreamer and the young companion to enter this community
@@ -425,16 +408,14 @@ export default function FacingMyFear() {
               safety is a highly positive figure. From this point on, the dream
               continues into a second narrative.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} blue`}>Locale</p>
+          </Section>
+          <Section section="locale">
             <p>
               The young man is no longer in the picture, but we still have the
               ego and the wolf.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} green`}>Exposition</p>
+          </Section>
+          <Section section="exposition">
             <p>
               Then the ego asks what happened to the wolf and we get a very
               interesting and insightful answer. We find out that all along the
@@ -473,9 +454,8 @@ export default function FacingMyFear() {
               is there, when something more primal in her like a gut instinct is
               not available.
             </p>
-          </div>
-          <div className={styles.interpretationSection}>
-            <p className={`${styles.sectionLabel} red`}>Peripateia</p>
+          </Section>
+          <Section section="peripateia">
             <p>
               Then the dream ends in a manner that is meant to shock the
               dreamer. A butcher pulls off the wings of a dead pigeon. This
@@ -483,12 +463,12 @@ export default function FacingMyFear() {
               corner, and the importance of keeping freedom instincts at bay
               with the fear instinct that keeps us safe from deadly encounters.
             </p>
-          </div>
+          </Section>
         </div>
       </div>
 
       <div className={styles.synthesis}>
-        <h3 className="red">Synthesis</h3>
+        <h2 className="red">Synthesis</h2>
         <p>
           These dreams are a good example of the dialogue that can occur between
           the ego and the unconscious when the ego pays attention to dreams.

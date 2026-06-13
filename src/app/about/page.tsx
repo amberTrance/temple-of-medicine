@@ -13,7 +13,7 @@ export default function About() {
       <h1>Hi, I am Angie</h1>
       <p style={{ fontSize: "20px", maxWidth: "400px" }}>
         I have been reading Carl Jung, Marie-Louise von Franz and other Jungian
-        authors for over 7 years, and not only reading but applying everything
+        authors for over seven years, and not only reading but applying everything
         in my personal life. I've interpreted many dreams for myself and friends
         with great results. Now I am merely putting all this knowledge out here.
       </p>
@@ -31,7 +31,7 @@ export default function About() {
               a feeling that there's more to life than the basic cycles of
               birth, jobs, marriage, kids and death. Well, this of course
               applies to me as well. I've been feeling restless since a long
-              time ago, since I am 12, to be more precise.
+              time ago, since I am twelve, to be more precise.
             </p>
 
             <p>
@@ -39,19 +39,19 @@ export default function About() {
               there is. My mother was interested in paranormal phenomena and
               because of that one day I started reading a book about astral
               projections. I have tried the techniques described in there with
-              no success. Later, around 16, I have found a group called AGEAC
+              no success. Later, around sixteen, I have found a group called AGEAC
               that was a mixture of various teachings from gnosticism to Eastern
               philosophies, and it provided various techniques such as opening
               your chakras. I've always had an empirical approach to everything,
-              and when I got no results in 2 years, I've left.
+              and when I got no results in two years, I've left.
             </p>
 
             <p>
               Unfortunately, the failed experiments made me into a convinced
               atheist (and I dreamed of Virgin Mary telling me that I am
               departing from my path, which I interpreted as a mere brain
-              activity). 7 more years had to pass until a friend showed me
-              Jordan Peterson, who spoke about Jung. Well, 7 more years from
+              activity). Seven more years had to pass until a friend showed me
+              Jordan Peterson, who spoke about Jung. Well, seven more years from
               that moment I can tell you that while there is still a lot that I
               do not understand, I applied once more the empirical approach and
               this time it DID lead me to good results. I can tell you with

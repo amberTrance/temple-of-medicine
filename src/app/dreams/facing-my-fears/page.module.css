@@ -60,18 +60,6 @@
   opacity: 0.5;
 }
 
-.interpretationSection {
-  margin: 24px 0 24px 0;
-}
-
-.sectionLabel {
-  margin: 0 0 4px;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
 @media (max-width: 800px) {
   .grid {
     grid-template-columns: 1fr;

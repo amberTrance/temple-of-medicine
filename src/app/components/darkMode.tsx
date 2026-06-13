@@ -18,7 +18,7 @@ const DarkModeButton = () => {
       className="circle-button"
       onClick={(e) => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
-      {mounted ?  theme === "dark" ? <FaMoon size={18} /> : <GoSun size={25} /> : null}
+      {mounted ? <span className="theme-icon">{theme === "dark" ? <FaMoon size={18} /> : <GoSun size={25} />}</span> : null}
     </button>
   );
 };

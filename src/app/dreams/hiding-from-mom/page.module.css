@@ -3,19 +3,16 @@
   margin: auto;
 }
 
-/* Intro, context, synthesis sit outside the grid */
 .prose {
   margin-bottom: 48px;
 }
 
-/* Each dream + its interpretation share a grid row */
 .grid {
   display: grid;
   grid-template-columns: 2fr 3fr;
   column-gap: 0;
   row-gap: 56px;
   align-items: start;
-  /* Continuous vertical divider line at the column boundary */
   background-image: linear-gradient(
     rgba(128, 128, 128, 0.2),
     rgba(128, 128, 128, 0.2)
@@ -38,13 +35,15 @@
 }
 
 .dreamEntry {
-  border-left: 3px solid #ffd644;
   padding-left: 20px;
 }
 
-.dreamDate {
-  margin: 0 0 12px;
-  font-weight: bold;
+[data-theme="dark"] .dreamEntry {
+  border-left: 3px solid #36a3ff;
+}
+
+[data-theme="light"] .dreamEntry {
+  border-left: 3px solid #1268b3;
 }
 
 .associationsLabel {
@@ -55,13 +54,6 @@
   letter-spacing: 0.08em;
   opacity: 0.5;
 }
-
-.associations {
-  margin: 0 0 16px;
-  padding-left: 20px;
-  list-style: disc;
-}
-
 
 @media (max-width: 800px) {
   .grid {
