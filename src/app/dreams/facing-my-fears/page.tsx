@@ -380,7 +380,7 @@ export default function FacingMyFear() {
           </Section>
           <Section section="exposition">
             <p>
-              When a <SymbolLink symbol="wolf">wolf</SymbolLink> appears. The
+              When a wolf appears. The
               wolf tries to come to the dreamer and the animus figure but they
               are terrified of it and run away. The dreamer has a flashlight
               that she plans to use as a weapon against the wolf if it reaches
