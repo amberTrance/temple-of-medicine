@@ -1,6 +1,22 @@
+.wrapper {
+  width: 30%;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: calc(50% - 12px);
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
 .imageWrapper {
   aspect-ratio: 3/4;
-  position:relative;
+  position: relative;
   width: 100%;
 }
 

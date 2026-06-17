@@ -31,7 +31,7 @@ export const ArticlePreview = ({
   // --- RENDER ---
 
   return (
-    <div style={{ width: "30%", minWidth: "250px" }}>
+    <div className={styles.wrapper}>
       <Link href={href} style={{ textDecoration: "none", color: "inherit" }}>
         <div
           className={hoverClass}

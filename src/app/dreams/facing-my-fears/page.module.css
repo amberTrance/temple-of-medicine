@@ -71,4 +71,8 @@
     padding-right: 0;
     padding-left: 0;
   }
+
+  .dreamEntry {
+    padding-left: 20px;
+  }
 }

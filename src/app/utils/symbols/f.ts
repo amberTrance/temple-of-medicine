@@ -84,7 +84,7 @@ const f: Symbol[] = [
     word: "Fish",
     citations: [
       {
-        text: "Many people interact playfully with their unconscious. They are like fishermen who daily fish in the unconscious and even \"nourish\" themselves on it: they take all kinds of good and evil things from the treasure of the unconscious...",
+        text: 'Many people interact playfully with their unconscious. They are like fishermen who daily fish in the unconscious and even "nourish" themselves on it: they take all kinds of good and evil things from the treasure of the unconscious...',
         author: "Carl Gustav Jung",
         source: "Children's Dreams, p.333",
       },
@@ -160,6 +160,12 @@ const f: Symbol[] = [
         text: "The city with the four gates symbolizes the idea of totality; it is the individual who possesses the four gates to the world, the four psychological functions, and so is contained in the Self. The city with the four gates is his indestructible wholeness - consciousness and the unconscious united.",
         author: "Carl Jung",
         source: "The Symbolic Life, para.269",
+      },
+      {
+        text: "In Egyptian symbolism the number four frequently signified the four cardinal directions and hence a kind of spatial or geographic totality...While the concept of completeness associated with the number four may have sprung entirely from the totality encompassed by the concept of the four cardinal points, the symbolic use of the number is frequently one of completion without any specific directional overtones at all.",
+        author: "Richard H. Wilkinson",
+        source:
+          "The Complete Gods and Goddesses of Ancient Egypt 1st Edition, page 76",
       },
     ],
   },

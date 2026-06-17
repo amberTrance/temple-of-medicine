@@ -1,18 +1,11 @@
 import { DreamsData, HoverStyle } from "@/app/utils/articleData";
 import { ArticlePreview } from "@/app/components/articlePreview/articlePreview";
+import styles from "./page.module.css";
 
 export default function Blog() {
   return (
     <>
-      <div
-        className="f-row"
-        style={{
-          flexWrap: "wrap",
-          justifyContent: "center",
-          gap: "24px",
-          alignItems: "flex-start",
-        }}
-      >
+      <div className={styles.grid}>
         <ArticlePreview
           alt={DreamsData.fear.alt}
           date={DreamsData.fear.date}

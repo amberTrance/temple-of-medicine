@@ -102,6 +102,22 @@ const s: Symbol[] = [
     ],
   },
   {
+    slug: "soil",
+    word: "Soil",
+    citations: [
+      {
+        text: "That is why the prima materia sometimes coin­cides with the idea of the initial stage of the process, the nigredo. It is then the black earth in which the gold or the lapis is sown like the grain of wheat. It is the black, magically fecund earth that Adam took with him from Paradise, also called antimony and described as a \"black blacker than black\" (nigrum nigrius nigro).",
+        author: "Carl Gustav Jung",
+        source: "Collected Works Volume 12, Psychology and Alchemy, page 327",
+      },
+      {
+        text: "But the self, as an inclusive term that embraces our whole living organism, not only contains the deposit and totality of all past life, but is also a point of departure, the fertile soil from which all future life will spring.",
+        author: "Carl Gustav Jung",
+        source: "Collected Works, Volume 7: Two Essays in Analytical Psychology",
+      },
+    ],
+  },
+  {
     slug: "soldiers",
     word: "Soldiers",
     citations: [

@@ -9,3 +9,11 @@
   flex-direction: row;
   gap: 24px;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  align-items: flex-start;
+}

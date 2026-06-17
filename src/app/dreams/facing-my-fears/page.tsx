@@ -404,7 +404,7 @@ export default function FacingMyFear() {
               The lysis is brought about by the appearance of the bear that
               allows the dreamer and the young companion to enter this community
               in which they are safe. The{" "}
-              <SymbolLink symbol="bear">bear</SymbolLink> here as the bringer of
+              bear here as the bringer of
               safety is a highly positive figure. From this point on, the dream
               continues into a second narrative.
             </p>
@@ -421,7 +421,7 @@ export default function FacingMyFear() {
               interesting and insightful answer. We find out that all along the
               only purpose of the wolf was to find out where a certain snake
               was. The reason for that is that the wolf is temporarily replacing
-              the <SymbolLink symbol="snake">snake</SymbolLink> in the role of
+              the snake in the role of
               protector for the water creatures.
             </p>
             <p>
@@ -434,7 +434,7 @@ export default function FacingMyFear() {
               water <SymbolLink symbol="lake">(lake)</SymbolLink>, just as
               forest is a symbol of the collective unconscious. Then we get the
               additional information that it's in particular the{" "}
-              <SymbolLink symbol="bird">birds</SymbolLink> (pigeons) that are
+              birds (pigeons) that are
               the most vulnerable of the water creatures, and in need of
               protection.
             </p>
