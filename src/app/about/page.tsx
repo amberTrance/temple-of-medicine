@@ -1,10 +1,6 @@
 import Image from "next/image";
-
-import { FaArrowDown } from "react-icons/fa6";
 import { prefix } from "../../../constants";
-
 import styles from "./page.module.css";
-import Link from "next/link";
 import { GoDownButton } from "@/app/components/goDownButton/goDownButton";
 
 export default function About() {
