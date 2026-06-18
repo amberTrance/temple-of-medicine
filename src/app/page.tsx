@@ -28,11 +28,15 @@ export default function Home() {
         </h2>
 
         <p>
-          If you would like me to interpret your dreams over a longer period,
-          contact me using the button above. I don't do single dream
-          interpretations because I don't find it satisfying. Typically the most
-          meaning can be derived from conversation and watching the unconscious
-          over a longer period to observe the patterns.
+          Dream analysis is not a standalone practice, wherein someone looks at
+          a dream, interprets it and gets a meaning out of it. It is intertwined
+          with your life. Your dreams are born as a reaction to your life, and I
+          can help you make your life be a reaction to your dreams and in this
+          way, we create the uroboros together. So, with me you can speak about
+          your deepest wishes, your anguish, your problems, your aspirations,
+          and we can see what your unconscious has to say about all of that. A
+          session is 50 minutes and the price is 35 euros. Reach out at{" "}
+          <span className="blue">mind.edifice@gmail.com</span> for details.
         </p>
       </section>
 
