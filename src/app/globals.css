@@ -170,7 +170,7 @@ main {
 
 /* LINKS MOBILE */
 
-@media (max-width: 650px) {
+@media (max-width: 875px) {
   .navbar ul {
     display: none;
   }

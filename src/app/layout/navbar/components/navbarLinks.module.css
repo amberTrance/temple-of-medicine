@@ -18,7 +18,7 @@
   animation: fadeIn 1s ease; /* Customize the duration and easing as desired */
 }
 
-@media (max-width: 650px) {
+@media (max-width: 875px) {
   .button {
     display: block;
   }
@@ -48,7 +48,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 875px) {
   .ulContainer {
     position: absolute;
     display: block;
