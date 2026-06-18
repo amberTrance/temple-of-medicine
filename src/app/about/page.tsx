@@ -13,9 +13,10 @@ export default function About() {
       <h1>Hi, I am Angie</h1>
       <p style={{ fontSize: "20px", maxWidth: "400px" }}>
         I have been reading Carl Jung, Marie-Louise von Franz and other Jungian
-        authors for over seven years, and not only reading but applying everything
-        in my personal life. I've interpreted many dreams for myself and friends
-        with great results. Now I am merely putting all this knowledge out here.
+        authors for over seven years, and not only reading but applying
+        everything in my personal life. I've interpreted many dreams for myself
+        and friends with great results. Now I am merely putting all this
+        knowledge out here.
       </p>
 
       <GoDownButton id="#about-me" title="Get to know more about me" />
@@ -39,11 +40,11 @@ export default function About() {
               there is. My mother was interested in paranormal phenomena and
               because of that one day I started reading a book about astral
               projections. I have tried the techniques described in there with
-              no success. Later, around sixteen, I have found a group called AGEAC
-              that was a mixture of various teachings from gnosticism to Eastern
-              philosophies, and it provided various techniques such as opening
-              your chakras. I've always had an empirical approach to everything,
-              and when I got no results in two years, I've left.
+              no success. Later, around sixteen, I have found a group called
+              AGEAC that was a mixture of various teachings from gnosticism to
+              Eastern philosophies, and it provided various techniques such as
+              opening your chakras. I've always had an empirical approach to
+              everything, and when I got no results in two years, I've left.
             </p>
 
             <p>
@@ -69,8 +70,8 @@ export default function About() {
               And to make a long story short, after I got friends and family
               "wow" at me after interpreting their dreams, I thought I could
               give it a try in the wilderness. So enjoy this website where I
-              will try my best to provide dream examples, symbols analysis and
-              other interesting and hopefully inspiring topics.
+              will try my best to provide dream examples, symbols, archetypes
+              and other interesting and hopefully inspiring topics.
             </p>
           </div>
 
