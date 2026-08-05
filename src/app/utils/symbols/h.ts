@@ -49,6 +49,11 @@ const h: Symbol[] = [
         author: "Carl Jung",
         source: "Man and his Symbols, p.54",
       },
+      {
+        text: "A former patient of his, who had no knowledge of the nature of his doctor's illness, dreamed that the doctor died in a great fire. At that time the doctor had just entered a hospital and the disease was only beginning. The dreamer knew nothing but the bare fact that his doctor was ill and in a hospital. Three weeks later, the doctor died...A doctor who is asked to describe the course of an illness will use such rational concepts as 'infection' or 'fever'. The dream is more poetic. It presents the diseased body as a man's earthy house, and the fever as the fire that is destroying it.",
+        author: "Carl Jung",
+        source: "Man and his Symbols, p.78",
+      },
     ],
   },
 ];
