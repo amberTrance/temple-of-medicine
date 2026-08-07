@@ -27,47 +27,48 @@ export default function About() {
               satisfied with life as society presents it to you. Maybe you have
               a feeling that there's more to life than the basic cycles of
               birth, jobs, marriage, kids and death. Well, this of course
-              applies to me as well. I've been feeling restless since a long
-              time ago, since I am twelve, to be more precise.
+              applies to me as well. I've been feeling restless for a long time,
+              since I was twelve, to be more precise.
             </p>
 
             <p>
-              Back then I merely had the thought that this cannot be all that
-              there is. My mother was interested in paranormal phenomena and
-              because of that one day I started reading a book about astral
-              projections. I have tried the techniques described in there with
-              no success. Later, around sixteen, I have found a group called
-              AGEAC that was a mixture of various teachings from gnosticism to
-              Eastern philosophies, and it provided various techniques such as
-              opening your chakras. I've always had an empirical approach to
-              everything, and when I got no results in two years, I've left.
+              Back then I merely thought that this couldn't be all there was. My
+              mother was interested in paranormal phenomena and because of that
+              one day I started reading a book about astral projections. I tried
+              the techniques described there with no success. Later, when I was
+              around sixteen, I found a group called AGEAC that was a mixture of
+              various teachings from gnosticism to Eastern philosophies, and it
+              provided various techniques such as opening your chakras. I've
+              always had an empirical approach to everything and when I got no
+              results after two years, I left.
             </p>
 
             <p>
-              Unfortunately, the failed experiments made me into a convinced
-              atheist (and I dreamed of Virgin Mary telling me that I am
-              departing from my path, which I interpreted as a mere brain
-              activity). Seven more years had to pass until a friend showed me
-              Jordan Peterson, who spoke about Jung. Well, seven more years from
-              that moment I can tell you that while there is still a lot that I
-              do not understand, I applied once more the empirical approach and
-              this time it DID lead me to good results. I can tell you with
-              certainty that there is such a thing as premonitory dreams, that
-              dream symbols, once you know how to read them, make a whole lot of
-              sense and can tell you better than a therapist what you do wrong
-              and right. I can tell you that I have grown more than I could have
-              ever dreamed of, left behind neurotic symptoms that no Psychology
-              degree and cognitive or behavioral techniques could fix. And I
-              have achieved all of this entirely through the knowledge provided
-              by Jung.
+              Unfortunately, the failed experiments made me a convinced atheist
+              (and I dreamed that the Virgin Mary was telling me that I am
+              departing from my path, which I interpreted as nothing more than
+              brain activity). Seven more years had to pass until a friend
+              showed me Jordan Peterson, who spoke about Jung. Well, seven more
+              years from that moment I can tell you that while there is still a
+              lot that I do not understand, I applied once more the empirical
+              approach and this time it DID lead me to good results. I can tell
+              you with certainty that there is such a thing as premonitory
+              dreams, that dream symbols, once you know how to read them, make a
+              whole lot of sense and can tell you better than a therapist what
+              you do wrong and right. I can tell you that I have grown more than
+              I could have ever dreamed of, left behind neurotic symptoms that
+              no psychology degree and cognitive or behavioral techniques could
+              fix. And I have achieved all of this entirely through the
+              knowledge provided by Jung.
             </p>
 
             <p>
-              And to make a long story short, after I got friends and family
-              "wow" at me after interpreting their dreams, I thought I could
-              give it a try in the wilderness. So enjoy this website where I
-              will try my best to provide dream examples, symbols, archetypes
-              and other interesting and hopefully inspiring topics.
+              And to make a long story short, after I saw the amazed reactions
+              of my friends and family after interpreting their dreams, I
+              thought I could give it a try in the wilderness. So enjoy this
+              website where I will try my best to provide dream examples,
+              symbols, archetypes and other interesting and hopefully inspiring
+              topics.
             </p>
           </div>
 
