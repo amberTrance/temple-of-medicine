@@ -1,5 +1,5 @@
-"use client"
-import { usePathname } from 'next/navigation'
+"use client";
+import { usePathname } from "next/navigation";
 
 import DarkModeButton from "@/app/components/darkMode";
 import { Mandala } from "@/app/components/mandala/mandala";
@@ -14,16 +14,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div
-        className={`logo-container underline-grow ${
+        className={`underline-grow ${
           pathname === `${prefix}/` && "underline-grow-stable"
         }`}
       >
         {/** Quick fix for github specific bug*/}
         <a className="logo" href={landingPagePath}>
           Temple of Medicine
+          <Mandala size={32} />
         </a>
-
-        <Mandala size={32} />
       </div>
 
       <div className="f-row">

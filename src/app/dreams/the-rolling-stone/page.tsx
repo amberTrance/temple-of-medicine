@@ -28,8 +28,8 @@ export default function TheRollingStone() {
           relationship of more than a year with a woman. The relationship was
           filled with fights. He would frequently be uncertain if a serious
           relationship is what he needs and would fantasize about multiple,
-          various life possibilities, such as being a sailor or a bartender. The
-          dreamer would also feel frequently depressed and empty.
+          various life possibilities, such as being a sailor. The dreamer would
+          also feel frequently depressed and empty.
         </p>
       </div>
 
@@ -90,8 +90,8 @@ export default function TheRollingStone() {
           <Section section="peripateia">
             <p>
               The dreamer is then with his pregnant anima on top of a cathedral
-              when the baby is born, and behold, the baby is a stone that falls
-              and rolls away from the dreamer.{" "}
+              when the baby is born, and the baby is a stone that falls and
+              rolls away from the dreamer.{" "}
               <SymbolLink symbol="crystal">Round objects</SymbolLink> in dreams
               are a reference to the figure of the{" "}
               <SymbolLink type="archetype" symbol="self">

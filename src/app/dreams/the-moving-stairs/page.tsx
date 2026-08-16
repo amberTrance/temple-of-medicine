@@ -155,8 +155,9 @@ export default function TheMovingStairs() {
               The result is the purchasing of a plastic house with leopard print
               curtains. Which is to say, that the dreamer pursues a path that
               brings her stability but feels fake and unrepresentative of one's
-              true self, all due to her being unable to integrate her shadow
-              side.
+              true self. This happens because the dreamer is not yet ready to
+              integrate the shadow aspect of her personality revealed in this
+              dream.
             </p>
           </Section>
         </div>
