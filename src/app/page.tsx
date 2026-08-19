@@ -28,14 +28,13 @@ export default function Home() {
         </h2>
 
         <p>
-          Dream analysis is not a standalone practice, wherein someone looks at
-          a dream, interprets it and gets a meaning out of it. It is intertwined
-          with your life. Your dreams are born as a reaction to your life, and I
-          can help you make your life be a reaction to your dreams and in this
-          way, we create the uroboros together. So, with me you can speak about
-          your deepest wishes, your anguish, your problems, your aspirations,
-          and we can see what your unconscious has to say about all of that. A
-          session is 50 minutes and the price is 35 euros. Reach out at{" "}
+          If you need someone to guide you in your dream analysis and
+          understanding of the unconscious, you can contact me. I offer this
+          service at the price of 35 Euros per session, which is one hour. In
+          these sessions we will not only analyze your dreams but place them in
+          the context of your life, your worries, your concerns, aspirations and
+          wishes. We will try to understand what your unconscious has to say
+          about all of it. If this sounds good, reach out at{" "}
           <span className="blue">mind.edifice@gmail.com</span> for details.
         </p>
       </section>
