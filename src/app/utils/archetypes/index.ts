@@ -19,7 +19,7 @@ export const archetypesData: Archetype[] = [
     word: "Self",
     citations: [
       {
-        text: "The Self is often symbolized as an animal, which represents our instinctive nature and its connection with our natural surroundings. (That is why there are so many helpful animals in myths and fairy tales.) This relationship of symbols of the Self with the natural surroundings and even with the universe shows that this \"atomic nucleus of the psyche\" is somehow interwoven with the whole inner and outer world.",
+        text: 'The Self is often symbolized as an animal, which represents our instinctive nature and its connection with our natural surroundings. (That is why there are so many helpful animals in myths and fairy tales.) This relationship of symbols of the Self with the natural surroundings and even with the universe shows that this "atomic nucleus of the psyche" is somehow interwoven with the whole inner and outer world.',
         author: "Marie-Louise von Franz",
         source: "Archetypal Dimensions of the Psyche, p.530",
       },
@@ -34,7 +34,7 @@ export const archetypesData: Archetype[] = [
         source: "Archetypal Dimensions of the Psyche, p.521",
       },
       {
-        text: "The Self is not static. Although it is sometimes represented by a crystal or a diamond, which stresses its eternal nature and its indestructibility, it is more often represented by some moving or dancing body. The Self is in constant movement. Continuous change in Chinese Taoist philosophy expressed the very meaning of existence. According to the I Ching, you cannot relate always to the Tao in the same way; you must relate to it differently at every minute. And so it is with the Self. You cannot have an experience of the Self and then stick to it for once and forever. It is well know that if you have an experience of the Self, after one or two days, or even after only a few hours, it has already disappeared. The goal, therefore, is to be able to hold on to it when it transforms itself to follow it in its dance. If you stand still and say, \"Now I have it!\" while the Self moves on, then you lose it. The secret is to be able to follow it, to dance with it, because the Self is constantly performing a dance, a circular movement of internal renewal. It constantly changes and yet always remains the same.",
+        text: 'The Self is not static. Although it is sometimes represented by a crystal or a diamond, which stresses its eternal nature and its indestructibility, it is more often represented by some moving or dancing body. The Self is in constant movement. Continuous change in Chinese Taoist philosophy expressed the very meaning of existence. According to the I Ching, you cannot relate always to the Tao in the same way; you must relate to it differently at every minute. And so it is with the Self. You cannot have an experience of the Self and then stick to it for once and forever. It is well know that if you have an experience of the Self, after one or two days, or even after only a few hours, it has already disappeared. The goal, therefore, is to be able to hold on to it when it transforms itself to follow it in its dance. If you stand still and say, "Now I have it!" while the Self moves on, then you lose it. The secret is to be able to follow it, to dance with it, because the Self is constantly performing a dance, a circular movement of internal renewal. It constantly changes and yet always remains the same.',
         author: "Marie-Louise von Franz",
         source: "Archetypal Patterns in Fairytales, p.65",
       },
@@ -49,7 +49,7 @@ export const archetypesData: Archetype[] = [
         source: "Archetypal Dimensions of the Psyche, p.403",
       },
       {
-        text: "The self as an archetype represents a numinous wholeness, which can be expressed only by symbols (e.g., mandala, tree, etc.). As a collective image it reaches beyond the individual in time and space and is therefore not subjected to the corruptibility of one body: the realization of the self is nearly always connected with the feeling of timelessness, \"eternity,\" or immortality.",
+        text: 'The self as an archetype represents a numinous wholeness, which can be expressed only by symbols (e.g., mandala, tree, etc.). As a collective image it reaches beyond the individual in time and space and is therefore not subjected to the corruptibility of one body: the realization of the self is nearly always connected with the feeling of timelessness, "eternity," or immortality.',
         author: "Carl Jung",
         source: "The Symbolic Life, p.1567",
       },
@@ -73,6 +73,11 @@ export const archetypesData: Archetype[] = [
         text: "Because of the protection it implies, the magic circle or mandala can be a form of mother archetype. Hollow objects such as ovens and cooking vessels are associated with the mother archetype, and, of course, the uterus, yoni and anything of a like shape. Added to this list there are many animals, such as the cow, hare, and helpful animals in general.",
         author: "Carl Jung",
         source: "The Archetypes, para.156",
+      },
+      {
+        text: "This leads us to a consideration of the transpersonal significance of the mother. From this angle she is not so much a particular person as she is the absolutely universal giver and preserver of life, and as such she may be compared to the unconscious which is the source and origin of all psychic life. Like the personal, the transpersonal mother-image also has a negative aspect which expresses a desire to hold the child back. In myths and fairy-tales this is often depicted as the killing or devouring of the child. Jung therefore speaks of the 'terrible or devouring mother'. In mythology this figure is portrayed as a gruesome and destructive goddess, the Indian Kali for instance, and in fairy-tales as the cruel stepmother or the witch, expressing the death-aspect of mother nature who kills her offspring from time to time and takes them back into herself. The unconscious exerts a corresponding influence in that it sets up a definite opposition to the development of consciousness or else it threatens to dim or even to extinguish the painfully achieved consciousness.",
+        author: "Emma Jung, Marie-Louise von Franz",
+        source: "The Grail Legend, page 41",
       },
     ],
   },
